@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xiamen DoWin — Leather Packaging & Gift Solutions</title>
+  <meta name="description" content="Premium leather packaging, gift baskets and wine hampers manufacturer from Xiamen, China. OEM/ODM custom solutions for global brands.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <span class="logo-mark">D</span>DoWin
+      </a>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Menu">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="active" data-i18n="nav.home">Home</a></li>
+        <li><a href="#about" data-i18n="nav.about">About Us</a></li>
+        <li><a href="#products" data-i18n="nav.products">Products</a></li>
+        <li><a href="#features" data-i18n="nav.features">Why Us</a></li>
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="lang-wrap">
+          <select id="lang-select">
+            <option value="en">EN</option>
+            <option value="zh">中文</option>
+          </select>
+        </div>
+        <a href="#contact" class="btn-nav-quote" data-i18n="nav.quote">Get Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-slide active" style="background: linear-gradient(135deg,#2c1810 0%,#5c3317 50%,#8b4513 100%);">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+          <div class="hero-badge" data-i18n="hero.badge">Premium Manufacturer Since 2008</div>
+          <h1 data-i18n="hero.h1">Elegant Leather Packaging & Gift Solutions</h1>
+          <p data-i18n="hero.p">Crafting premium leather gift baskets, wine hampers, and luxury packaging for global brands — from Xiamen, China.</p>
+          <div class="hero-cta">
+            <a href="#products" class="btn btn-primary" data-i18n="hero.btnProducts">Explore Products</a>
+            <a href="#contact" class="btn btn-ghost" data-i18n="hero.btnContact">Request a Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">↓</div>
+  </section>
+
+  <!-- ===== INTRO STRIP ===== -->
+  <section class="intro-strip">
+    <div class="container">
+      <p class="intro-text" data-i18n="intro.text">Xiamen DoWin Industrial & Trade Co., Ltd. is a professional manufacturer and exporter of premium leather packaging, gift baskets, and wine hampers. With 15+ years of experience, we serve clients across Europe, North America, and Southeast Asia.</p>
+    </div>
+  </section>
+
+  <!-- ===== CATEGORIES ===== -->
+  <section class="section categories">
+    <div class="container">
+      <h2 class="section-title" data-i18n="cat.title">Our Product Categories</h2>
+      <div class="cat-grid">
+        <div class="cat-card" onclick="scrollToProducts('leather-packaging')">
+          <div class="cat-icon">📦</div>
+          <h3 data-i18n="cat.pack">Leather Packaging</h3>
+          <p data-i18n="cat.packDesc">Jewelry boxes, watch boxes, cosmetic cases — crafted in genuine leather, PU, or PVC</p>
+          <span class="cat-link" data-i18n="cat.view">View Products →</span>
+        </div>
+        <div class="cat-card" onclick="scrollToProducts('gift-baskets')">
+          <div class="cat-icon">🎁</div>
+          <h3 data-i18n="cat.gift">Leather Gift Baskets</h3>
+          <p data-i18n="cat.giftDesc">Handcrafted gift baskets for Christmas, Valentine's, Mother's Day, and corporate gifting</p>
+          <span class="cat-link" data-i18n="cat.view">View Products →</span>
+        </div>
+        <div class="cat-card" onclick="scrollToProducts('wine-baskets')">
+          <div class="cat-icon">🍷</div>
+          <h3 data-i18n="cat.wine">Wine Baskets & Hampers</h3>
+          <p data-i18n="cat.wineDesc">Single-bottle, double-bottle, and multi-bottle wine carriers in classic leather designs</p>
+          <span class="cat-link" data-i18n="cat.view">View Products →</span>
+        </div>
+        <div class="cat-card" onclick="scrollToProducts('accessories')">
+          <div class="cat-icon">🧳</div>
+          <h3 data-i18n="cat.acc">Leather Accessories</h3>
+          <p data-i18n="cat.accDesc">Belts, small leather goods, and custom皮具配件 for gifting and retail</p>
+          <span class="cat-link" data-i18n="cat.view">View Products →</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ADVANTAGES ===== -->
+  <section class="section section-alt advantages">
+    <div class="container">
+      <h2 class="section-title" data-i18n="adv.title">Why Choose DoWin</h2>
+      <div class="adv-grid">
+        <div class="adv-card">
+          <div class="adv-icon">🌍</div>
+          <h3 data-i18n="adv.exp">15+ Years Export Experience</h3>
+          <p data-i18n="adv.expDesc">Deep understanding of international trade, packaging regulations, and customer expectations</p>
+        </div>
+        <div class="adv-card">
+          <div class="adv-icon">✂️</div>
+          <h3 data-i18n="adv.custom">Custom Design & OEM/ODM</h3>
+          <p data-i18n="adv.customDesc">From concept to mass production — we support logo customization, material selection, and packaging design</p>
+        </div>
+        <div class="adv-card">
+          <div class="adv-icon">✅</div>
+          <h3 data-i18n="adv.quality">Quality Assurance</h3>
+          <p data-i18n="adv.qualityDesc">Strict QC at every stage, pre-shipment inspection, and compliance with international standards (CE, ISO)</p>
+        </div>
+        <div class="adv-card">
+          <div class="adv-icon">⚡</div>
+          <h3 data-i18n="adv.fast">Fast Delivery</h3>
+          <p data-i18n="adv.fastDesc">Efficient production lines ensure lead times of 15–25 days for standard orders; flexible MOQ available</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="about.title">About DoWin</h2>
+        <p class="section-sub" data-i18n="about.sub">Your trusted manufacturing partner from Xiamen, China</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-i18n="about.p1">Founded in <strong>2008</strong>, Xiamen DoWin Industrial & Trade Co., Ltd. is located in Xiamen, Fujian Province — a major port city and hub for export manufacturing in China. We specialize in the design and production of premium leather packaging, gift baskets, and wine hampers.</p>
+          <p data-i18n="about.p2">Our product range includes genuine leather, PU, and PVC materials, serving clients in the jewelry, watch, cosmetics, wine, and gifting industries worldwide.</p>
+          <p data-i18n="about.p3">With a dedicated team of designers, skilled craftsmen, and quality control specialists, DoWin has become a preferred supplier for many international brands and distributors.</p>
+        </div>
+        <div class="about-media">
+          <div class="about-img-placeholder">
+            <span>🏭</span>
+            <p data-i18n="about.factory">Factory & Production</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Production Stats -->
+      <div class="stats-row">
+        <div class="stat-item">
+          <span class="stat-num">3,000m²</span>
+          <span class="stat-label" data-i18n="about.factorySize">Factory Area</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">80+</span>
+          <span class="stat-label" data-i18n="about.workers">Workers</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">50,000+</span>
+          <span class="stat-label" data-i18n="about.monthlyCap">Monthly Capacity (pcs)</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">2008</span>
+          <span class="stat-label" data-i18n="about.founded">Year Founded</span>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="certs-section">
+        <h3 data-i18n="about.certsTitle">Certifications & Standards</h3>
+        <div class="certs-list">
+          <div class="cert-badge">ISO 9001</div>
+          <div class="cert-badge">CE</div>
+          <div class="cert-badge">REACH</div>
+          <div class="cert-badge">RoHS</div>
+          <div class="cert-badge">Sedex</div>
+        </div>
+      </div>
+
+      <!-- Timeline (optional) -->
+      <div class="timeline">
+        <h3 data-i18n="about.timelineTitle">Our Journey</h3>
+        <div class="timeline-track">
+          <div class="timeline-item">
+            <span class="tl-year">2008</span>
+            <span class="tl-text" data-i18n="about.tl2008">DoWin founded in Xiamen, started with leather gift baskets</span>
+          </div>
+          <div class="timeline-item">
+            <span class="tl-year">2012</span>
+            <span class="tl-text" data-i18n="about.tl2012">Expanded to wine hampers and packaging; first EU client</span>
+          </div>
+          <div class="timeline-item">
+            <span class="tl-year">2016</span>
+            <span class="tl-text" data-i18n="about.tl2016">Obtained ISO 9001 certification; launched OEM/ODM services</span>
+          </div>
+          <div class="timeline-item">
+            <span class="tl-year">2020</span>
+            <span class="tl-text" data-i18n="about.tl2020">New production line for cosmetic & jewelry packaging</span>
+          </div>
+          <div class="timeline-item">
+            <span class="tl-year">2024</span>
+            <span class="tl-text" data-i18n="about.tl2024">Serving clients in 30+ countries; export volume up 40%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section id="products" class="section section-alt products">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="prod.title">Product Center</h2>
+        <p class="section-sub" data-i18n="prod.sub">Premium leather goods crafted for elegance and durability</p>
+      </div>
+
+      <div class="prod-filters">
+        <button class="filter-btn active" data-filter="all" data-i18n="prod.filterAll">All Products</button>
+        <button class="filter-btn" data-filter="leather-packaging" data-i18n="prod.filterPack">Leather Packaging</button>
+        <button class="filter-btn" data-filter="gift-baskets" data-i18n="prod.filterGift">Gift Baskets</button>
+        <button class="filter-btn" data-filter="wine-baskets" data-i18n="prod.filterWine">Wine Baskets</button>
+        <button class="filter-btn" data-filter="accessories" data-i18n="prod.filterAcc">Accessories</button>
+      </div>
+
+      <div class="product-grid" id="product-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCT MODAL ===== -->
+  <div class="modal" id="product-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ===== FEATURES / WHY US ===== -->
+  <section id="features" class="section features">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="feat.title">Product Features & Materials</h2>
+        <p class="section-sub" data-i18n="feat.sub">Quality materials and craftsmanship in every piece</p>
+      </div>
+      <div class="feat-layout">
+        <div class="feat-left">
+          <div class="feat-tabs">
+            <button class="feat-tab active" data-tab="materials" data-i18n="feat.materials">Materials</button>
+            <button class="feat-tab" data-tab="craft" data-i18n="feat.craft">Craftsmanship</button>
+            <button class="feat-tab" data-tab="eco" data-i18n="feat.eco">Eco Standards</button>
+          </div>
+          <div class="feat-panel active" id="tab-materials">
+            <ul class="feat-list">
+              <li><strong>Genuine Leather</strong> — Full-grain and top-grain leather for premium products, natural texture and durability</li>
+              <li><strong>PU Leather</strong> — Cost-effective alternative with realistic leather appearance, available in 50+ colors</li>
+              <li><strong>PVC Leather</strong> — Durable and water-resistant, ideal for high-volume orders and practical packaging</li>
+              <li><strong>Velvet / Suede Linings</strong> — Soft interior linings to protect jewelry, watches, and cosmetics</li>
+              <li><strong>Hardware</strong> — High-quality zippers, magnetic clasps, and metal accents in gold/silver/nickel finishes</li>
+            </ul>
+          </div>
+          <div class="feat-panel" id="tab-craft">
+            <ul class="feat-list">
+              <li><strong>Hand-Stitching</strong> — Skilled artisans for products requiring hand-sewn details and seams</li>
+              <li><strong>Debossing / Embossing</strong> — Custom logo and brand imprint on leather surfaces</li>
+              <li><strong>Hot-Stamping</strong> — Foil-stamped logos in gold, silver, or custom colors for luxury finishes</li>
+              <li><strong>Silk-Screen Printing</strong> — Precise logo and graphic printing on leather and packaging</li>
+              <li><strong>Laser Engraving</strong> — Clean, permanent marking on metal hardware and leather</li>
+              <li><strong>Die-Cut Packaging</strong> — Custom-shaped inserts for products (jewelry, watches, bottles)</li>
+            </ul>
+          </div>
+          <div class="feat-panel" id="tab-eco">
+            <ul class="feat-list">
+              <li><strong>REACH Compliance</strong> — All materials tested and certified for restricted substances</li>
+              <li><strong>RoHS Compliant</strong> — Hazardous substances eliminated from hardware and finishes</li>
+              <li><strong>Low-Waste Production</strong> — Optimized cutting patterns to minimize leather waste</li>
+              <li><strong>FSC-Certified Papers</strong> — Packaging papers sourced from responsibly managed forests</li>
+              <li><strong>Water-Based Adhesives</strong> — Non-toxic, environmentally safe bonding agents used in assembly</li>
+            </ul>
+          </div>
+        </div>
+        <div class="feat-right">
+          <div class="feat-img-placeholder">🧵</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section section-alt services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="svc.title">Our Services</h2>
+        <p class="section-sub" data-i18n="svc.sub">End-to-end solutions from design to delivery</p>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-card">
+          <div class="svc-icon">🎨</div>
+          <h3 data-i18n="svc.oem">OEM / ODM Custom Manufacturing</h3>
+          <p data-i18n="svc.oemDesc">Send us your designs, samples, or concepts — we handle tooling, sampling, and mass production. MOQ as low as 50–100 pcs per design.</p>
+        </div>
+        <div class="svc-card">
+          <div class="svc-icon">✨</div>
+          <h3 data-i18n="svc.logo">Logo & Branding Customization</h3>
+          <p data-i18n="svc.logoDesc">Choose from debossing, hot-stamping, silk-screen, or laser engraving to showcase your brand identity on every product.</p>
+        </div>
+        <div class="svc-card">
+          <div class="svc-icon">📐</div>
+          <h3 data-i18n="svc.pack">Custom Packaging Design</h3>
+          <p data-i18n="svc.packDesc">Our in-house design team creates custom gift boxes, inserts, and retail packaging that elevate your brand.</p>
+        </div>
+        <div class="svc-card">
+          <div class="svc-icon">📋</div>
+          <h3 data-i18n="svc.qc">Quality Inspection & Certification</h3>
+          <p data-i18n="svc.qcDesc">Every batch undergoes AQL inspection before shipment. We provide inspection reports, test certificates, and can arrange third-party testing.</p>
+        </div>
+        <div class="svc-card">
+          <div class="svc-icon">🚢</div>
+          <h3 data-i18n="svc.ship">Flexible Shipping & Logistics</h3>
+          <p data-i18n="svc.shipDesc">We handle export documentation, customs clearance, and partner with major freight forwarders for sea, air, and express delivery worldwide.</p>
+        </div>
+        <div class="svc-card">
+          <div class="svc-icon">🔄</div>
+          <h3 data-i18n="svc.moq">Small MOQ Flexibility</h3>
+          <p data-i18n="svc.moqDesc">Start with 50–200 pcs for new product testing. We support sample orders and offer preferential pricing for larger volume orders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="contact.title">Contact Us</h2>
+        <p class="section-sub" data-i18n="contact.sub">Get in touch for product inquiries, custom orders, or partnership opportunities</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info">
+          <div class="ci-block">
+            <h4 data-i18n="contact.company">Company</h4>
+            <p>Xiamen DoWin Industrial & Trade Co., Ltd.</p>
+          </div>
+          <div class="ci-block">
+            <h4 data-i18n="contact.address">Address</h4>
+            <p data-i18n="contact.addressVal">No. 128, Haicang District, Xiamen, Fujian Province, China 361026</p>
+          </div>
+          <div class="ci-block">
+            <h4 data-i18n="contact.phone">Phone / WhatsApp</h4>
+            <p>+86 592 1234 5678</p>
+          </div>
+          <div class="ci-block">
+            <h4>WeChat</h4>
+            <p>dowin-leather</p>
+          </div>
+          <div class="ci-block">
+            <h4 data-i18n="contact.email">Email</h4>
+            <p>sales@dowin-leather.com</p>
+          </div>
+          <div class="ci-block">
+            <h4 data-i18n="contact.hours">Business Hours</h4>
+            <p data-i18n="contact.hoursVal">Mon–Fri: 8:30 AM – 6:00 PM (GMT+8)<br>Sat: 9:00 AM – 12:00 PM</p>
+          </div>
+          <!-- Social -->
+          <div class="ci-social">
+            <a href="#" class="social-link" title="WhatsApp">💬</a>
+            <a href="#" class="social-link" title="WeChat">💭</a>
+            <a href="#" class="social-link" title="LinkedIn">🔗</a>
+            <a href="#" class="social-link" title="Made-in-China">🏭</a>
+          </div>
+        </div>
+
+        <form class="inquiry-form" id="inquiry-form">
+          <h3 data-i18n="contact.formTitle">Send an Inquiry</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label data-i18n="contact.fName">Full Name *</label>
+              <input type="text" name="name" required>
+            </div>
+            <div class="form-group">
+              <label data-i18n="contact.fCompany">Company Name</label>
+              <input type="text" name="company">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label data-i18n="contact.fEmail">Email *</label>
+              <input type="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label data-i18n="contact.fPhone">Phone / WhatsApp</label>
+              <input type="tel" name="phone">
+            </div>
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.fProduct">Product Interest</label>
+            <select name="product" id="f-product">
+              <option value="" data-i18n="contact.fSelect">-- Select a product --</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.fQty">Estimated Quantity</label>
+            <input type="text" name="quantity" placeholder="e.g. 500 pcs">
+          </div>
+          <div class="form-group">
+            <label data-i18n="contact.fMessage">Your Message *</label>
+            <textarea name="message" rows="5" required data-i18n-placeholder="contact.fMsgPlaceholder" placeholder="Please describe your requirements: product type, material preference, customization needs, target price, etc."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg" data-i18n="contact.fSubmit">Send Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo"><span class="logo-mark">D</span>DoWin</div>
+        <p data-i18n="footer.tagline">Premium Leather Packaging & Gift Solutions from Xiamen, China</p>
+      </div>
+      <div class="footer-links">
+        <div class="fl-col">
+          <h4 data-i18n="footer.products">Products</h4>
+          <a href="#products" data-i18n="footer.pack">Leather Packaging</a>
+          <a href="#products" data-i18n="footer.gift">Gift Baskets</a>
+          <a href="#products" data-i18n="footer.wine">Wine Baskets</a>
+          <a href="#products" data-i18n="footer.acc">Accessories</a>
+        </div>
+        <div class="fl-col">
+          <h4 data-i18n="footer.company">Company</h4>
+          <a href="#about" data-i18n="footer.about">About Us</a>
+          <a href="#features" data-i18n="footer.why">Why Choose Us</a>
+          <a href="#services" data-i18n="footer.svc">Services</a>
+          <a href="#contact" data-i18n="footer.contact">Contact</a>
+        </div>
+        <div class="fl-col">
+          <h4 data-i18n="footer.legal">Legal</h4>
+          <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" data-i18n="footer.terms">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Xiamen DoWin Industrial & Trade Co., Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
