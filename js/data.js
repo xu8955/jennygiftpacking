@@ -189,6 +189,30 @@ const products = [
       'MOQ': '50 pcs'
     }
   },
+  {
+    id: 'lp-007',
+    name: 'DXD9904双瓶红酒袋',
+    category: 'wine-baskets',
+    images: [
+      'red-wine-packaging/DXD9904/01.jpg',
+      'red-wine-packaging/DXD9904/02.jpg',
+      'red-wine-packaging/DXD9904/03.jpg',
+      'red-wine-packaging/DXD9904/04.jpg'
+    ],
+    desc: 'Double-bottle wine carrier with dual window display. Features crocodile-embossed leather exterior with neat stitching. Holds two 750ml bottles securely. Perfect for corporate gifting and retail packaging.',
+    scenes: ['Wine Gift', 'Corporate Gift', 'Restaurant', 'Wedding', 'Holiday Gift Set'],
+    materials: ['PU Leather (Croc Embossed)', 'Metal Snap', 'Contrast Stitching'],
+    specs: {
+      'Model': 'DXD9904',
+      'Material': 'PU Leather, croc embossed',
+      'Size': '22 × 10 × 36/46 cm',
+      'Capacity': '2 × 750ml bottles',
+      'Colors': 'Black',
+      'Closure': 'Snap fastener',
+      'Logo': 'Deboss / Hot-stamp',
+      'MOQ': '50 pcs'
+    }
+  },
 
   // ═══════════════════════════════════════
   //  CROC TOTE BAGS — Multiple Colors
