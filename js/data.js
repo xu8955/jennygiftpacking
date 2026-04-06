@@ -54,22 +54,25 @@ const products = [
   // ═══════════════════════════════════════
   {
     id: 'lp-001',
-    name: 'Premium Wine Bottle Carrier — Croc Embossed',
-    category: 'leather-packaging',
+    name: 'DX9901单瓶红酒袋',
+    category: 'wine-baskets',
     images: [
-      'red wine packaging/DX30518.jpg',
-      'red wine packaging/DX30516.jpg',
-      'red wine packaging/DX30517.jpg'
+      'red-wine-packaging/DX9901/02.jpg',
+      'red-wine-packaging/DX9901/03.jpg',
+      'red-wine-packaging/DX9901/04.jpg',
+      'red-wine-packaging/DX9901/05.jpg',
+      'red-wine-packaging/DX9901/O1CN01YREobL1U7JI4yWfrq.jpg'
     ],
-    desc: 'Luxury croc-embossed leather wine bottle carrier with envelope flap and white contrast stitching. Holds one 750ml bottle securely. Great for gifting and retail packaging.',
-    scenes: ['Wine Gift', 'Restaurant', 'Birthday', 'Wedding Favor'],
-    materials: ['PU Leather (Croc Embossed)', 'Contrast Stitching', 'Snap Closure'],
+    desc: 'Elegant single-bottle wine carrier with rose and filigree embossing. Features a handle loop with brass rivets and white contrast stitching. Available in 5 colors — olive green, orange, sage green, yellow, and mahogany brown. Holds one 750ml bottle securely.',
+    scenes: ['Wine Gift', 'Restaurant', 'Birthday', 'Wedding Favor', 'Corporate Gifting'],
+    materials: ['PU Leather (Smooth)', 'Brass Rivets', 'Contrast Stitching'],
     specs: {
-      'Material': 'PU Leather, croc embossed',
-      'Size': '12 × 12 × 38 cm',
+      'Model': 'DX9901',
+      'Material': 'PU Leather, smooth semi-glossy',
+      'Size': '15 × 48 cm',
       'Capacity': '1 × 750ml bottle',
-      'Colors': 'Dark Brown, Black',
-      'Closure': 'Envelope flap + snap',
+      'Colors': 'Olive Green, Orange, Sage Green, Yellow, Mahogany Brown',
+      'Handle': 'Leather strap with brass rivets',
       'Logo': 'Deboss / Hot-stamp',
       'MOQ': '50 pcs'
     }
@@ -79,8 +82,8 @@ const products = [
     name: 'Single Bottle Wine Case — Grid Pattern',
     category: 'leather-packaging',
     images: [
-      'red wine packaging/DX30515.jpg',
-      'red wine packaging/DX10301.jpg'
+      'red-wine-packaging/DX30515.jpg',
+      'red-wine-packaging/DX10301.jpg'
     ],
     desc: 'Sleek vertical wine bottle case with micro-grid texture and gold accent strip. Features adjustable shoulder strap and interior bottle securing strap.',
     scenes: ['Wine Gift', 'Corporate Gift', 'Restaurant', 'Travel'],
@@ -100,9 +103,9 @@ const products = [
     name: 'Leather Wine Gift Box — Branded',
     category: 'leather-packaging',
     images: [
-      'red wine packaging/DX10304.jpg',
-      'red wine packaging/DX11035.jpg',
-      'red wine packaging/DX30518.jpg'
+      'red-wine-packaging/DX10304.jpg',
+      'red-wine-packaging/DX11035.jpg',
+      'red-wine-packaging/DX30518.jpg'
     ],
     desc: 'Premium leather wine gift box with croc texture and gold latch. Interior features custom foam or fabric insert to secure bottle. Logo plate available for brand customization.',
     scenes: ['Corporate Gift', 'Luxury Retail', 'Holiday Gift Set', 'Wedding'],
@@ -121,7 +124,7 @@ const products = [
     name: 'Wine & Snack Carrier — Multi-Compartment',
     category: 'leather-packaging',
     images: [
-      'red wine packaging/65CQIJ)A8Y_]1DBQJG@}[A5.jpg'
+      'red-wine-packaging/65CQIJ)A8Y_]1DBQJG@}[A5.jpg'
     ],
     desc: 'Flexible faux leather basket carrier pre-filled with wine, spirits, snacks and treats. Great B2B gifting solution for holidays and corporate events.',
     scenes: ['Corporate Gifting', 'Christmas Gift', 'VIP Client', 'Trade Show'],
@@ -132,6 +135,32 @@ const products = [
       'Colors': 'Green, Red, Navy (assorted)',
       'Fill': 'Custom per client requirement',
       'Logo': 'Hot-stamp on basket or ribbon',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'lp-005',
+    name: 'DX9902单瓶红酒袋',
+    category: 'wine-baskets',
+    images: [
+      'red-wine-packaging/DX9902/01.jpg',
+      'red-wine-packaging/DX9902/02.jpg',
+      'red-wine-packaging/DX9902/O1CN01tKzImV1U7JGZ17eNi_!!2203365632470.jpg',
+      'red-wine-packaging/DX9902/O1CN01Zcm9wG1U7JN56CWZk_!!2203365632470.jpg',
+      'red-wine-packaging/DX9902/O1CN012UWPsx1U7JGai5oSw_!!2203365632470.jpg',
+      'red-wine-packaging/DX9902/O1CN01lx90Ts1U7J8TjRO3R_!!2203365632470.jpg.jpg'
+    ],
+    desc: 'Elegant leather wine carrier with bottle display cutout and gold button closure. Features a handle strap with snap. Holds one 750ml bottle securely. Ideal for gifting and retail packaging.',
+    scenes: ['Wine Gift', 'Restaurant', 'Birthday', 'Wedding Favor', 'Corporate Gifting'],
+    materials: ['PU Leather', 'Gold Hardware', 'Metal Snap'],
+    specs: {
+      'Model': 'DX9902',
+      'Material': 'PU Leather',
+      'Size': '9 × 10 × 41 cm',
+      'Capacity': '1 × 750ml bottle',
+      'Colors': 'Black, Brown',
+      'Closure': 'Gold button + snap strap',
+      'Logo': 'Deboss / Hot-stamp',
       'MOQ': '50 pcs'
     }
   },
