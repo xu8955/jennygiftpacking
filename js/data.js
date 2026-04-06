@@ -138,6 +138,30 @@ const products = [
       'MOQ': '50 pcs'
     }
   },
+  {
+    id: 'lp-005',
+    name: 'DX9902单瓶红酒袋',
+    category: 'wine-baskets',
+    images: [
+      'red-wine-packaging/DX9902/01.jpg',
+      'red-wine-packaging/DX9902/02.jpg',
+      'red-wine-packaging/DX9902/O1CN01tKzImV1U7JGZ17eNi_!!2203365632470.jpg',
+      'red-wine-packaging/DX9902/O1CN01Zcm9wG1U7JN56CWZk_!!2203365632470.jpg'
+    ],
+    desc: 'Elegant leather wine carrier with bottle display cutout and gold button closure. Features a handle strap with snap. Holds one 750ml bottle securely. Ideal for gifting and retail packaging.',
+    scenes: ['Wine Gift', 'Restaurant', 'Birthday', 'Wedding Favor', 'Corporate Gifting'],
+    materials: ['PU Leather', 'Gold Hardware', 'Metal Snap'],
+    specs: {
+      'Model': 'DX9902',
+      'Material': 'PU Leather',
+      'Size': '9 × 10 × 41 cm',
+      'Capacity': '1 × 750ml bottle',
+      'Colors': 'Black, Brown',
+      'Closure': 'Gold button + snap strap',
+      'Logo': 'Deboss / Hot-stamp',
+      'MOQ': '50 pcs'
+    }
+  },
 
   // ═══════════════════════════════════════
   //  CROC TOTE BAGS — Multiple Colors
