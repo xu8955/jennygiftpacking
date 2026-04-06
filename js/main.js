@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setupFeatureTabs();
   setupModal();
   setupForm();
+  setupSearch();
   populateProductSelect();
   renderProducts('all');
 });
@@ -63,6 +64,42 @@ function setupFilters() {
       btn.classList.add('active');
       currentFilter = btn.dataset.filter;
       renderProducts(currentFilter);
+    });
+  });
+}
+
+// ── Product search ──
+function setupSearch() {
+  const input = document.getElementById('product-search');
+  input.addEventListener('input', () => {
+    const query = input.value.trim().toLowerCase();
+    if (query.length === 0) {
+      renderProducts(currentFilter);
+      return;
+    }
+    const filtered = products.filter(p => {
+      const inName = p.name.toLowerCase().includes(query);
+      const inId = p.id.toLowerCase().includes(query);
+      const inSpecs = Object.values(p.specs).some(v => v.toLowerCase().includes(query));
+      const inDesc = p.desc.toLowerCase().includes(query);
+      return inName || inId || inSpecs || inDesc;
+    });
+    document.getElementById('product-grid').innerHTML = filtered.length === 0
+      ? '<p style="padding:2rem;text-align:center;color:#999;">未找到匹配的产品</p>'
+      : filtered.map(p => `
+        <div class="product-card" data-id="${p.id}">
+          <div class="product-thumb">
+            <img src="${ASSET_BASE}/${p.images[0]}" alt="${p.name}" onerror="this.style.display='none'; this.parentElement.style.fontSize='3rem'; this.parentElement.textContent='📷';">
+          </div>
+          <div class="product-info">
+            <div class="product-cat">${getCategoryLabel(p.category, currentLang)}</div>
+            <h3 class="product-name">${p.name}</h3>
+            <p class="product-desc">${p.desc}</p>
+          </div>
+        </div>
+      `).join('');
+    document.querySelectorAll('.product-card').forEach(card => {
+      card.addEventListener('click', () => openProductModal(card.dataset.id));
     });
   });
 }
