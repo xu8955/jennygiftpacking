@@ -181,7 +181,7 @@ const products = [
     specs: {
       'Model': 'DXD9903',
       'Material': 'PU Leather, croc embossed',
-      'Size': '6.5 × 9 × 41 cm',
+      'Size': '16.5 × 9 × 41 cm',
       'Capacity': '2 × 750ml bottles',
       'Colors': 'Black',
       'Closure': 'Snap fastener',
