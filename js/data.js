@@ -199,7 +199,7 @@ const products = [
       'red-wine-packaging/DXD9904/03.jpg',
       'red-wine-packaging/DXD9904/04.jpg'
     ],
-    desc: 'Double-bottle wine carrier with dual window display. Features crocodile-embossed leather exterior with neat stitching. Holds two 750ml bottles securely. Perfect for corporate gifting and retail packaging.',
+    desc: 'Double-bottle wine carrier. Features crocodile-embossed leather exterior with neat stitching and snap closure. Holds two 750ml bottles securely. Perfect for corporate gifting and retail packaging.',
     scenes: ['Wine Gift', 'Corporate Gift', 'Restaurant', 'Wedding', 'Holiday Gift Set'],
     materials: ['PU Leather (Croc Embossed)', 'Metal Snap', 'Contrast Stitching'],
     specs: {
