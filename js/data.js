@@ -308,6 +308,6 @@ const company = {
   phone: '+86 592 1234 5678',
   whatsapp: '+86 592 1234 5678',
   wechat: 'dowin-leather',
-  email: 'sales@dowin-leather.com',
+  email: 'jenny-fisc@163.com',
   website: 'www.dowin-leather.com'
 };
