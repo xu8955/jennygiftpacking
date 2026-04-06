@@ -169,6 +169,7 @@ const products = [
     name: 'DXD9903双瓶开窗红酒袋',
     category: 'wine-baskets',
     images: [
+      'red-wine-packaging/DXD9903/O1.jpg',
       'red-wine-packaging/DXD9903/O1CN01Ok9ZGh1U7JN5xWlY4.jpg',
       'red-wine-packaging/DXD9903/O1CN01ozeqhn1U7JN5c8KO7.jpg',
       'red-wine-packaging/DXD9903/O1CN01RvT04y1U7JGai5XqC.jpg',
