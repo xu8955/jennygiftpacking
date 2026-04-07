@@ -54,7 +54,7 @@ const products = [
   // ═══════════════════════════════════════
   {
     id: 'lp-001',
-    name: 'DX9901单瓶红酒袋',
+    name: 'DX9901 Single Bottle Wine Carrier',
     category: 'wine-baskets',
     images: [
       'red-wine-packaging/DX9901/02.jpg',
@@ -119,28 +119,10 @@ const products = [
       'MOQ': '30 pcs'
     }
   },
-  {
-    id: 'lp-004',
-    name: 'Wine & Snack Carrier — Multi-Compartment',
-    category: 'leather-packaging',
-    images: [
-      'red-wine-packaging/65CQIJ)A8Y_]1DBQJG@}[A5.jpg'
-    ],
-    desc: 'Flexible faux leather basket carrier pre-filled with wine, spirits, snacks and treats. Great B2B gifting solution for holidays and corporate events.',
-    scenes: ['Corporate Gifting', 'Christmas Gift', 'VIP Client', 'Trade Show'],
-    materials: ['PU Leather (Faux)', 'Metal Buckle', 'Custom Fill'],
-    specs: {
-      'Material': 'PU Leather',
-      'Size': '40 × 30 × 25 cm',
-      'Colors': 'Green, Red, Navy (assorted)',
-      'Fill': 'Custom per client requirement',
-      'Logo': 'Hot-stamp on basket or ribbon',
-      'MOQ': '50 pcs'
-    }
-  },
+
   {
     id: 'lp-005',
-    name: 'DX9902单瓶红酒袋',
+    name: 'DX9902 Single Bottle Wine Carrier',
     category: 'wine-baskets',
     images: [
       'red-wine-packaging/DX9902/01.jpg',
@@ -166,7 +148,7 @@ const products = [
   },
   {
     id: 'lp-006',
-    name: 'DXD9903双瓶开窗红酒袋',
+    name: 'DXD9903 Double Bottle Window Wine Carrier',
     category: 'wine-baskets',
     images: [
       'red-wine-packaging/DXD9903/O1.jpg',
@@ -191,7 +173,7 @@ const products = [
   },
   {
     id: 'lp-007',
-    name: 'DXD9904双瓶红酒袋',
+    name: 'DXD9904 Double Bottle Wine Carrier',
     category: 'wine-baskets',
     images: [
       'red-wine-packaging/DXD9904/01.jpg',
