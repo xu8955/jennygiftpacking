@@ -5,28 +5,7 @@ const products = [
   // ═══════════════════════════════════════
   //  GIFT BASKETS / LEATHER TOTE BAGS
   // ═══════════════════════════════════════
-  {
-    id: 'gb-001',
-    name: 'Woven Leather Storage Tote — Classic',
-    category: 'gift-baskets',
-    images: [
-      'basket/DX11032.jpg',
-      'basket/85A~H[I`26DCT8A419D)`20.jpg',
-      'basket/DX11033.jpg'
-    ],
-    desc: 'Handcrafted woven leather tote with antique metal studs. Spacious interior ideal for magazines, linens, or gift baskets. Available in black, brown, and tan.',
-    scenes: ['Living Room Storage', 'Magazine Organizer', 'Gift Basket Base', 'Retail Display'],
-    materials: ['PU Leather (Woven)', 'Metal Studs', 'Polyester Lining'],
-    specs: {
-      'Material': 'PU Leather, woven texture',
-      'Size': '38 × 28 × 30 cm',
-      'Colors': 'Black, Brown, Tan',
-      'Handle': 'Leather strap w/ buckle',
-      'Interior': 'Polyester lining',
-      'Logo': 'Deboss / Silk-print',
-      'MOQ': '50 pcs'
-    }
-  },
+
   {
     id: 'gb-002',
     name: 'Three-Piece Woven Basket Set',
@@ -77,27 +56,7 @@ const products = [
       'MOQ': '50 pcs'
     }
   },
-  {
-    id: 'lp-002',
-    name: 'Single Bottle Wine Case — Grid Pattern',
-    category: 'leather-packaging',
-    images: [
-      'red-wine-packaging/DX30515.jpg',
-      'red-wine-packaging/DX10301.jpg'
-    ],
-    desc: 'Sleek vertical wine bottle case with micro-grid texture and gold accent strip. Features adjustable shoulder strap and interior bottle securing strap.',
-    scenes: ['Wine Gift', 'Corporate Gift', 'Restaurant', 'Travel'],
-    materials: ['PU Leather (Grid Texture)', 'Gold Hardware', 'Adjustable Strap'],
-    specs: {
-      'Material': 'PU Leather, micro-grid texture',
-      'Size': '14 × 14 × 40 cm',
-      'Capacity': '1 × 750ml bottle',
-      'Colors': 'Black, Dark Brown',
-      'Strap': 'Adjustable shoulder strap',
-      'Logo': 'Deboss / Metal plate',
-      'MOQ': '50 pcs'
-    }
-  },
+
 
 
   {
