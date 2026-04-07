@@ -98,27 +98,7 @@ const products = [
       'MOQ': '50 pcs'
     }
   },
-  {
-    id: 'lp-003',
-    name: 'Leather Wine Gift Box — Branded',
-    category: 'leather-packaging',
-    images: [
-      'red-wine-packaging/DX10304.jpg',
-      'red-wine-packaging/DX11035.jpg',
-      'red-wine-packaging/DX30518.jpg'
-    ],
-    desc: 'Premium leather wine gift box with croc texture and gold latch. Interior features custom foam or fabric insert to secure bottle. Logo plate available for brand customization.',
-    scenes: ['Corporate Gift', 'Luxury Retail', 'Holiday Gift Set', 'Wedding'],
-    materials: ['Genuine Leather / PU', 'Gold Latch', 'Foam Insert'],
-    specs: {
-      'Material': 'PU Leather or Genuine Leather',
-      'Size': '14 × 14 × 38 cm',
-      'Capacity': '1 × 750ml bottle',
-      'Colors': 'Brown, Black, Wine Red',
-      'Logo': 'Gold foil plate / Deboss',
-      'MOQ': '30 pcs'
-    }
-  },
+
 
   {
     id: 'lp-005',
