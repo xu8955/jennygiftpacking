@@ -67,7 +67,7 @@ const products = [
     name: 'DXD8802 Mini Favor Bag — Medium',
     category: 'gift-baskets',
     images: [
-      'basket/DXD8801_02.png',
+      'basket/DXD8801_03.png',
       'basket/DXD8801_03.png',
       'basket/DXD8801_04.png',
       'basket/DXD8801_05.png',
@@ -98,7 +98,7 @@ const products = [
     name: 'DXD8803 Mini Favor Bag — Large',
     category: 'gift-baskets',
     images: [
-      'basket/DXD8801_02.png',
+      'basket/DXD8801_05.png',
       'basket/DXD8801_03.png',
       'basket/DXD8801_04.png',
       'basket/DXD8801_05.png',
@@ -129,7 +129,7 @@ const products = [
     name: 'DXD8804 Mini Favor Bag — Extra Large',
     category: 'gift-baskets',
     images: [
-      'basket/DXD8801_02.png',
+      'basket/DXD8801_08.png',
       'basket/DXD8801_03.png',
       'basket/DXD8801_04.png',
       'basket/DXD8801_05.png',
@@ -160,7 +160,7 @@ const products = [
     name: 'DXD8805 Mini Favor Bag — Double Extra Large',
     category: 'gift-baskets',
     images: [
-      'basket/DXD8801_02.png',
+      'basket/DXD8801_11.png',
       'basket/DXD8801_03.png',
       'basket/DXD8801_04.png',
       'basket/DXD8801_05.png',
