@@ -29,6 +29,128 @@ const products = [
   },
 
   // ═══════════════════════════════════════
+  //  MINI FAVOR BAGS — DXD8801 Series
+  // ═══════════════════════════════════════
+  {
+    id: 'dxd-001',
+    name: 'DXD8801 Mini Favor Bag — 5-Colors Set',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD8801_02.png',
+      'basket/DXD8801_03.png',
+      'basket/DXD8801_04.png',
+      'basket/DXD8801_05.png',
+      'basket/DXD8801_06.png',
+      'basket/DXD8801_07.png',
+      'basket/DXD8801_08.png',
+      'basket/DXD8801_09.png',
+      'basket/DXD8801_10.png',
+      'basket/DXD8801_11.png',
+      'basket/DXD8801_12.png',
+      'basket/DXD8801_13.png'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags with decorative ribbon. Set of 5 vibrant colors — burgundy, orange, blue, purple, and pink. Perfect for wedding favors, party gifts, and special events. Each bag features a structured silhouette with curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon', 'Plate Display'],
+    specs: {
+      'Model': 'DXD8801',
+      'Material': 'PU Leather, textured finish',
+      'Size': '10 × 5 × 10.5 cm (Small)',
+      'Colors': 'Burgundy, Orange, Blue, Purple, Pink (Set of 5)',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '100 pcs'
+    }
+  },
+  {
+    id: 'dxd-002',
+    name: 'DXD8802 Mini Favor Bag — Medium',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD8801_04.png',
+      'basket/DXD8801_05.png',
+      'basket/DXD8801_06.png'
+    ],
+    desc: 'Medium-sized miniature handbag-style favor bag with decorative ribbon. Features structured silhouette, curved handle, and elegant satin ribbon bow. Ideal for wedding favors and party gifts.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD8802',
+      'Material': 'PU Leather, textured finish',
+      'Size': '12 × 13 × 5.5 cm (Medium)',
+      'Colors': 'Multiple colors available',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '100 pcs'
+    }
+  },
+  {
+    id: 'dxd-003',
+    name: 'DXD8803 Mini Favor Bag — Large',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD8801_07.png',
+      'basket/DXD8801_08.png',
+      'basket/DXD8801_09.png'
+    ],
+    desc: 'Large-sized miniature handbag-style favor bag with decorative ribbon. Features structured silhouette, curved handle, and elegant satin ribbon bow. Perfect for gift packaging and event favors.',
+    scenes: ['Wedding Favor', 'Gift Packaging', 'Event Giveaway', 'Party Gift'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD8803',
+      'Material': 'PU Leather, textured finish',
+      'Size': '14 × 6 × 15 cm (Large)',
+      'Colors': 'Multiple colors available',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '100 pcs'
+    }
+  },
+  {
+    id: 'dxd-004',
+    name: 'DXD8804 Mini Favor Bag — Extra Large',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD8801_10.png',
+      'basket/DXD8801_11.png',
+      'basket/DXD8801_12.png'
+    ],
+    desc: 'Extra-large miniature handbag-style favor bag with decorative ribbon. Features structured silhouette, curved handle, and elegant satin ribbon bow. Great for larger gift sets and premium event favors.',
+    scenes: ['Wedding Favor', 'Gift Packaging', 'VIP Event', 'Corporate Gift'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD8804',
+      'Material': 'PU Leather, textured finish',
+      'Size': '16 × 7 × 17 cm (Extra Large)',
+      'Colors': 'Multiple colors available',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '100 pcs'
+    }
+  },
+  {
+    id: 'dxd-005',
+    name: 'DXD8805 Mini Favor Bag — Double Extra Large',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD8801_13.png',
+      'basket/DXD8801_03.png'
+    ],
+    desc: 'Double extra-large miniature handbag-style favor bag with decorative ribbon. Features structured silhouette, curved handle, and elegant satin ribbon bow. Our largest size in the series, perfect for premium gift packaging and luxury event favors.',
+    scenes: ['Luxury Wedding', 'Premium Gift Packaging', 'VIP Event', 'Corporate Gifting'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD8805',
+      'Material': 'PU Leather, textured finish',
+      'Size': '20 × 8 × 21 cm (Double Extra Large)',
+      'Colors': 'Multiple colors available',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '100 pcs'
+    }
+  },
+
+  // ═══════════════════════════════════════
   //  LEATHER PACKAGING — Wine & Spirits
   // ═══════════════════════════════════════
   {
