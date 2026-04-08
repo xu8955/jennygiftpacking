@@ -67,9 +67,18 @@ const products = [
     name: 'DXD8802 Mini Favor Bag — Medium',
     category: 'gift-baskets',
     images: [
+      'basket/DXD8801_02.png',
+      'basket/DXD8801_03.png',
       'basket/DXD8801_04.png',
       'basket/DXD8801_05.png',
-      'basket/DXD8801_06.png'
+      'basket/DXD8801_06.png',
+      'basket/DXD8801_07.png',
+      'basket/DXD8801_08.png',
+      'basket/DXD8801_09.png',
+      'basket/DXD8801_10.png',
+      'basket/DXD8801_11.png',
+      'basket/DXD8801_12.png',
+      'basket/DXD8801_13.png'
     ],
     desc: 'Medium-sized miniature handbag-style favor bag with decorative ribbon. Features structured silhouette, curved handle, and elegant satin ribbon bow. Ideal for wedding favors and party gifts.',
     scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party'],
@@ -89,9 +98,18 @@ const products = [
     name: 'DXD8803 Mini Favor Bag — Large',
     category: 'gift-baskets',
     images: [
+      'basket/DXD8801_02.png',
+      'basket/DXD8801_03.png',
+      'basket/DXD8801_04.png',
+      'basket/DXD8801_05.png',
+      'basket/DXD8801_06.png',
       'basket/DXD8801_07.png',
       'basket/DXD8801_08.png',
-      'basket/DXD8801_09.png'
+      'basket/DXD8801_09.png',
+      'basket/DXD8801_10.png',
+      'basket/DXD8801_11.png',
+      'basket/DXD8801_12.png',
+      'basket/DXD8801_13.png'
     ],
     desc: 'Large-sized miniature handbag-style favor bag with decorative ribbon. Features structured silhouette, curved handle, and elegant satin ribbon bow. Perfect for gift packaging and event favors.',
     scenes: ['Wedding Favor', 'Gift Packaging', 'Event Giveaway', 'Party Gift'],
@@ -111,9 +129,18 @@ const products = [
     name: 'DXD8804 Mini Favor Bag — Extra Large',
     category: 'gift-baskets',
     images: [
+      'basket/DXD8801_02.png',
+      'basket/DXD8801_03.png',
+      'basket/DXD8801_04.png',
+      'basket/DXD8801_05.png',
+      'basket/DXD8801_06.png',
+      'basket/DXD8801_07.png',
+      'basket/DXD8801_08.png',
+      'basket/DXD8801_09.png',
       'basket/DXD8801_10.png',
       'basket/DXD8801_11.png',
-      'basket/DXD8801_12.png'
+      'basket/DXD8801_12.png',
+      'basket/DXD8801_13.png'
     ],
     desc: 'Extra-large miniature handbag-style favor bag with decorative ribbon. Features structured silhouette, curved handle, and elegant satin ribbon bow. Great for larger gift sets and premium event favors.',
     scenes: ['Wedding Favor', 'Gift Packaging', 'VIP Event', 'Corporate Gift'],
@@ -133,8 +160,18 @@ const products = [
     name: 'DXD8805 Mini Favor Bag — Double Extra Large',
     category: 'gift-baskets',
     images: [
-      'basket/DXD8801_13.png',
-      'basket/DXD8801_03.png'
+      'basket/DXD8801_02.png',
+      'basket/DXD8801_03.png',
+      'basket/DXD8801_04.png',
+      'basket/DXD8801_05.png',
+      'basket/DXD8801_06.png',
+      'basket/DXD8801_07.png',
+      'basket/DXD8801_08.png',
+      'basket/DXD8801_09.png',
+      'basket/DXD8801_10.png',
+      'basket/DXD8801_11.png',
+      'basket/DXD8801_12.png',
+      'basket/DXD8801_13.png'
     ],
     desc: 'Double extra-large miniature handbag-style favor bag with decorative ribbon. Features structured silhouette, curved handle, and elegant satin ribbon bow. Our largest size in the series, perfect for premium gift packaging and luxury event favors.',
     scenes: ['Luxury Wedding', 'Premium Gift Packaging', 'VIP Event', 'Corporate Gifting'],
