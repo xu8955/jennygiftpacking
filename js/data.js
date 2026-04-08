@@ -214,6 +214,32 @@ const products = [
       'MOQ': '100 pcs'
     }
   },
+  {
+    id: 'dxd-007',
+    name: 'DXD9907 Geometric Handbag — Colorful Collection',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9907_01.png',
+      'basket/DXD9907_02.png',
+      'basket/DXD9907_03.png',
+      'basket/DXD9907_04.png',
+      'basket/DXD9907_05.png',
+      'basket/DXD9907_06.png',
+      'basket/DXD9907_07.png',
+      'basket/DXD9907_08.png'
+    ],
+    desc: 'Elegant geometric handbag-style favor bags with decorative silk ribbon. Set of vibrant colors — lavender, orange, light blue, white, and red. Features structured silhouette with curved wooden-look handle and satin ribbon bow. Perfect for wedding favors, party gifts, bridal showers, and special events.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon', 'Wooden Handle'],
+    specs: {
+      'Model': 'DXD9907',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Lavender, Orange, Light Blue, White, Red (Set of 5)',
+      'Handle': 'Curved wooden-look handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '100 pcs'
+    }
+  },
 
   // ═══════════════════════════════════════
   //  LEATHER PACKAGING — Wine & Spirits
