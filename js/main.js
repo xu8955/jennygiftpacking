@@ -177,12 +177,13 @@ function openProductModal(id) {
   document.getElementById('modal-body').innerHTML = `
     <div class="detail-hero">
       <div class="detail-gallery">
-        <div class="gallery-main">
+        <div class="gallery-main" onclick="galleryNext()" style="cursor:pointer;" title="Click to next">
           <img id="gallery-img" src="${ASSET_BASE}/${p.images[0]}" alt="${p.name}"
                onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22><rect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2224%22>Image</text></svg>'">
           ${total > 1 ? `
-          <button class="gallery-btn gallery-prev" onclick="galleryPrev()">‹</button>
-          <button class="gallery-btn gallery-next" onclick="galleryNext()">›</button>
+          <button class="gallery-btn gallery-prev" onclick="event.stopPropagation(); galleryPrev()">‹</button>
+          <button class="gallery-btn gallery-next" onclick="event.stopPropagation(); galleryNext()">›</button>
+          <div class="gallery-counter">${currentImgIndex + 1} / ${total}</div>
           ` : ''}
         </div>
         ${total > 1 ? `
@@ -202,6 +203,11 @@ function openProductModal(id) {
         <div class="detail-scenes">
           ${p.scenes.map(s => `<span class="scene-tag">${s}</span>`).join('')}
         </div>
+        <div class="detail-materials">
+          <span class="mat-label">Materials:</span>
+          ${p.materials.map(m => `<span class="mat-tag">${m}</span>`).join('')}
+        </div>
+        <a href="#contact" class="btn-inquiry" onclick="closeModal()">Get Quote</a>
       </div>
     </div>
     <div class="detail-specs">
