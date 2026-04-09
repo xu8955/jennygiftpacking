@@ -195,6 +195,17 @@ function openProductModal(id) {
           `).join('')}
         </div>
         ` : ''}
+        <div class="gallery-stack">
+          <div class="stack-label">All Product Views</div>
+          <div class="gallery-stack-items">
+            ${p.images.map((img, i) => `
+              <div class="stack-item" onclick="openProductLightbox(${i})">
+                <img src="${ASSET_BASE}/${img}" alt="View ${i+1}">
+                <div class="stack-caption">View ${i+1} — ${total}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
       </div>
       <div class="detail-info">
         <div class="detail-cat">${catLabel}</div>
@@ -246,15 +257,47 @@ function galleryNext() {
   galleryGoTo((currentImgIndex + 1) % p.images.length);
 }
 
+let lbImages = [];
+let lbIdx = 0;
+
+function openProductLightbox(index) {
+  const p = products.find(x => x.id === currentProductId);
+  if (!p) return;
+  lbImages = p.images;
+  lbIdx = index;
+  updateLightbox();
+  document.getElementById('product-lightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function updateLightbox() {
+  document.getElementById('lb-img').src = ASSET_BASE + '/' + lbImages[lbIdx];
+  document.getElementById('lb-counter').textContent = (lbIdx + 1) + ' / ' + lbImages.length;
+  document.getElementById('lb-caption').textContent = 'View ' + (lbIdx + 1);
+}
+
+function lbPrev() { lbIdx = (lbIdx - 1 + lbImages.length) % lbImages.length; updateLightbox(); }
+function lbNext() { lbIdx = (lbIdx + 1) % lbImages.length; updateLightbox(); }
+
+function closeProductLightbox() {
+  document.getElementById('product-lightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
 function setupModal() {
   document.getElementById('modal-close').addEventListener('click', closeModal);
   document.getElementById('product-modal').addEventListener('click', e => {
     if (e.target.id === 'product-modal') closeModal();
   });
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeModal();
+    if (e.key === 'Escape') { closeModal(); closeProductLightbox(); }
     if (e.key === 'ArrowLeft') galleryPrev();
     if (e.key === 'ArrowRight') galleryNext();
+    const lb = document.getElementById('product-lightbox');
+    if (lb.classList.contains('open')) {
+      if (e.key === 'ArrowLeft') lbPrev();
+      if (e.key === 'ArrowRight') lbNext();
+    }
   });
 }
 

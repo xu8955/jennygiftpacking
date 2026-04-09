@@ -241,6 +241,16 @@
     </div>
   </div>
 
+  <!-- ===== PRODUCT LIGHTBOX ===== -->
+  <div id="product-lightbox" class="product-lightbox" onclick="closeProductLightbox()">
+    <button class="lb-close" onclick="closeProductLightbox()">&#215;</button>
+    <button class="lb-nav lb-prev" onclick="event.stopPropagation();lbPrev()">&#8249;</button>
+    <img id="lb-img" src="" alt="" onclick="event.stopPropagation()">
+    <button class="lb-nav lb-next" onclick="event.stopPropagation();lbNext()">&#8250;</button>
+    <div class="lb-counter" id="lb-counter"></div>
+    <div class="lb-caption" id="lb-caption"></div>
+  </div>
+
   <!-- ===== FEATURES / WHY US ===== -->
   <section id="features" class="section features">
     <div class="container">
