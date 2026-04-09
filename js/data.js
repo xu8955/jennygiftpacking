@@ -185,7 +185,7 @@ const products = [
       'Decoration': 'Satin ribbon bow',
       'MOQ': '100 pcs'
     }
-  },,
+  },
   {
     id: 'dxd-006',
     name: 'DXD9905 Mini Favor Bag — Elegant Collection',
@@ -213,10 +213,6 @@ const products = [
       'MOQ': '100 pcs'
     }
   },
-
- },
- },
- },
 
   // ═══════════════════════════════════════
   //  LEATHER PACKAGING — Wine & Spirits
