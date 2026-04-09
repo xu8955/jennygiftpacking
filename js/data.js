@@ -213,6 +213,33 @@ const products = [
       'MOQ': '100 pcs'
     }
   },
+  {
+    id: 'dxd-006',
+    name: 'DXD9905 Mini Favor Bag — Elegant Collection',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9905_01.jpg',
+      'basket/DXD9905_02.jpg',
+      'basket/DXD9905_03.jpg',
+      'basket/DXD9905_04.jpg',
+      'basket/DXD9905_05.jpg',
+      'basket/DXD9905_06.jpg',
+      'basket/DXD9905_07.jpg',
+      'basket/DXD9905_08.jpg',
+      'basket/DXD9905_09.jpg'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags with decorative silk ribbon. Set of multiple rich colors — lavender, orange, light blue, white, and red. Perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9905',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Lavender, Orange, Light Blue, White, Red (Set of 9)',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '100 pcs'
+    }
+  },
 
   // ═══════════════════════════════════════
   //  LEATHER PACKAGING — Wine & Spirits
