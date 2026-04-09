@@ -240,6 +240,34 @@ const products = [
       'MOQ': '100 pcs'
     }
   },
+  {
+    id: 'dxd-008',
+    name: 'DXD9906 Mini Tote Bag — Red Collection',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9906_01.png',
+      'basket/DXD9906_02.png',
+      'basket/DXD9906_03.png',
+      'basket/DXD9906_04.png',
+      'basket/DXD9906_05.png',
+      'basket/DXD9906_06.png',
+      'basket/DXD9906_07.png',
+      'basket/DXD9906_08.png',
+      'basket/DXD9906_09.png',
+      'basket/DXD9906_10.png'
+    ],
+    desc: 'Elegant miniature tote bag with decorative silk ribbon. Features classic checkerboard embossed texture with structured silhouette, curved handle, and satin ribbon bow. Deep red color perfect for wedding favors, party gifts, bridal showers, and special events.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9906',
+      'Material': 'PU Leather, checkerboard embossed finish',
+      'Colors': 'Deep Red',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '100 pcs'
+    }
+  },
 
   // ═══════════════════════════════════════
   //  LEATHER PACKAGING — Wine & Spirits
