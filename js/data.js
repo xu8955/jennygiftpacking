@@ -186,88 +186,9 @@ const products = [
       'MOQ': '100 pcs'
     }
   },
-  {
-    id: 'dxd-006',
-    name: 'DXD9905 Mini Favor Bag — Elegant Collection',
-    category: 'gift-baskets',
-    images: [
-      'basket/DXD9905_01.png',
-      'basket/DXD9905_02.png',
-      'basket/DXD9905_03.png',
-      'basket/DXD9905_04.png',
-      'basket/DXD9905_05.png',
-      'basket/DXD9905_06.png',
-      'basket/DXD9905_07.png',
-      'basket/DXD9905_08.png',
-      'basket/DXD9905_09.png',
-      'basket/DXD9905_10.png'
-    ],
-    desc: 'Elegant miniature handbag-style favor bags with decorative silk ribbon. Set of multiple rich colors — burgundy, tan, brown, and more. Perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with curved handle and satin ribbon bow.',
-    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
-    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
-    specs: {
-      'Model': 'DXD9905',
-      'Material': 'PU Leather, textured finish',
-      'Colors': 'Burgundy, Tan, Brown, Mixed (Set of 10)',
-      'Handle': 'Integrated curved handle',
-      'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
-    }
-  },
-  {
-    id: 'dxd-007',
-    name: 'DXD9907 Geometric Handbag — Colorful Collection',
-    category: 'gift-baskets',
-    images: [
-      'basket/DXD9907_01.png',
-      'basket/DXD9907_02.png',
-      'basket/DXD9907_03.png',
-      'basket/DXD9907_04.png',
-      'basket/DXD9907_05.png',
-      'basket/DXD9907_06.png',
-      'basket/DXD9907_07.png',
-      'basket/DXD9907_08.png'
-    ],
-    desc: 'Elegant geometric handbag-style favor bags with decorative silk ribbon. Set of vibrant colors — lavender, orange, light blue, white, and red. Features structured silhouette with curved wooden-look handle and satin ribbon bow. Perfect for wedding favors, party gifts, bridal showers, and special events.',
-    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
-    materials: ['PU Leather (Textured)', 'Satin Ribbon', 'Wooden Handle'],
-    specs: {
-      'Model': 'DXD9907',
-      'Material': 'PU Leather, textured finish',
-      'Colors': 'Lavender, Orange, Light Blue, White, Red (Set of 5)',
-      'Handle': 'Curved wooden-look handle',
-      'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
-    }
-  },
-  {
-    id: 'dxd-008',
-    name: 'DXD9906 Mini Tote Bag — Red Collection',
-    category: 'gift-baskets',
-    images: [
-      'basket/DXD9906_01.png',
-      'basket/DXD9906_02.png',
-      'basket/DXD9906_03.png',
-      'basket/DXD9906_04.png',
-      'basket/DXD9906_05.png',
-      'basket/DXD9906_06.png',
-      'basket/DXD9906_07.png',
-      'basket/DXD9906_08.png',
-      'basket/DXD9906_09.png',
-      'basket/DXD9906_10.png'
-    ],
-    desc: 'Elegant miniature tote bag with decorative silk ribbon. Features classic checkerboard embossed texture with structured silhouette, curved handle, and satin ribbon bow. Deep red color perfect for wedding favors, party gifts, bridal showers, and special events.',
-    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
-    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
-    specs: {
-      'Model': 'DXD9906',
-      'Material': 'PU Leather, checkerboard embossed finish',
-      'Colors': 'Deep Red',
-      'Handle': 'Integrated curved handle',
-      'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
-    }
-  },
+ },
+ },
+ },
 
   // ═══════════════════════════════════════
   //  LEATHER PACKAGING — Wine & Spirits
