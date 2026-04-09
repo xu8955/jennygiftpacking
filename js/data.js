@@ -186,60 +186,7 @@ const products = [
       'MOQ': '100 pcs'
     }
   },
-  {
-    id: 'dxd-006',
-    name: 'DXD9905 Mini Favor Bag — Elegant Collection',
-    category: 'gift-baskets',
-    images: [
-      'basket/DXD9905_01.jpg',
-      'basket/DXD9905_02.jpg',
-      'basket/DXD9905_03.jpg',
-      'basket/DXD9905_04.jpg',
-      'basket/DXD9905_05.jpg',
-      'basket/DXD9905_06.jpg',
-      'basket/DXD9905_07.jpg',
-      'basket/DXD9905_08.jpg',
-      'basket/DXD9905_09.jpg'
-    ],
-    desc: 'Elegant miniature handbag-style favor bags with decorative silk ribbon. Set of multiple rich colors — lavender, orange, light blue, white, and red. Perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with curved handle and satin ribbon bow.',
-    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
-    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
-    specs: {
-      'Model': 'DXD9905',
-      'Material': 'PU Leather, textured finish',
-      'Colors': 'Lavender, Orange, Light Blue, White, Red (Set of 9)',
-      'Handle': 'Integrated curved handle',
-      'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
-    }
-  },
-  {
-    id: 'dxd-006',
-    name: 'DXD9905 Mini Favor Bag — Elegant Collection',
-    category: 'gift-baskets',
-    images: [
-      'basket/DXD9905_01.jpg',
-      'basket/DXD9905_02.jpg',
-      'basket/DXD9905_03.jpg',
-      'basket/DXD9905_04.jpg',
-      'basket/DXD9905_05.jpg',
-      'basket/DXD9905_06.jpg',
-      'basket/DXD9905_07.jpg',
-      'basket/DXD9905_08.jpg',
-      'basket/DXD9905_09.jpg'
-    ],
-    desc: 'Elegant miniature handbag-style favor bags with decorative silk ribbon. Set of multiple rich colors — lavender, orange, light blue, white, and red. Perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with curved handle and satin ribbon bow.',
-    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
-    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
-    specs: {
-      'Model': 'DXD9905',
-      'Material': 'PU Leather, textured finish',
-      'Colors': 'Lavender, Orange, Light Blue, White, Red (Set of 9)',
-      'Handle': 'Integrated curved handle',
-      'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
-    }
-  },
+  // (removed duplicate DXD9905 entries)
 
   // ═══════════════════════════════════════
   //  LEATHER PACKAGING — Wine & Spirits
@@ -452,6 +399,98 @@ const products = [
       'Profile': 'T-profile, open top',
       'Logo': 'Deboss / Silk-print',
       'MOQ': '50 pcs'
+    }
+  },
+
+  // ═══════════════════════════════════════
+  //  MINI FAVOR BAGS — DXD9906 Series
+  // ═══════════════════════════════════════
+  {
+    id: 'dxd-006',
+    name: 'DXD9906 Mini Favor Bag — Checkered Pattern',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9906/DXD9906_01.png',
+      'basket/DXD9906/DXD9906_02.png',
+      'basket/DXD9906/DXD9906_03.png',
+      'basket/DXD9906/DXD9906_04.png',
+      'basket/DXD9906/DXD9906_05.png',
+      'basket/DXD9906/DXD9906_06.png',
+      'basket/DXD9906/DXD9906_07.png',
+      'basket/DXD9906/DXD9906_08.png',
+      'basket/DXD9906/DXD9906_09.png',
+      'basket/DXD9906/DXD9906_10.png'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags with distinctive checkered texture — alternating smooth and pebbled leather squares. Decorated with colorful printed scarves tied into bows. Gold metal studs on sides. Perfect for wedding favors, party gifts, and special events.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Checkered Texture)', 'Satin Printed Scarf', 'Gold Metal Studs'],
+    specs: {
+      'Model': 'DXD9906',
+      'Material': 'PU Leather, checkered texture',
+      'Colors': 'Dark Red, Medium Red (shown with scarves)',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Printed satin scarf bow + gold studs',
+      'MOQ': '100 pcs'
+    }
+  },
+
+  // ═══════════════════════════════════════
+  //  MINI FAVOR BAGS — DXD9907 Series
+  // ═══════════════════════════════════════
+  {
+    id: 'dxd-007',
+    name: 'DXD9907 Mini Favor Bag — Heart Handle',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9907/DXD9907_01.png',
+      'basket/DXD9907/DXD9907_02.png',
+      'basket/DXD9907/DXD9907_03.png',
+      'basket/DXD9907/DXD9907_04.png',
+      'basket/DXD9907/DXD9907_05.png',
+      'basket/DXD9907/DXD9907_06.png',
+      'basket/DXD9907/DXD9907_07.png',
+      'basket/DXD9907/DXD9907_08.png',
+      'basket/DXD9907/DXD9907_09.png'
+    ],
+    desc: 'Charming miniature favor bag with signature heart-shaped handle cutout at the top. Soft feminine silhouette with a pale pink decorative bow and gold stud accents. Made from fine pebbled faux leather. Ideal for wedding favors, bridal showers, and romantic occasions.',
+    scenes: ['Wedding Favor', 'Bridal Shower', 'Romantic Event', 'Birthday Party', 'Valentine\'s Day'],
+    materials: ['PU Leather (Fine Pebbled)', 'Satin Ribbon Bow', 'Gold Metal Studs'],
+    specs: {
+      'Model': 'DXD9907',
+      'Material': 'PU Leather, fine pebbled texture',
+      'Colors': 'Lilac, Light Blue (shown with bows)',
+      'Handle': 'Heart-shaped cutout handle',
+      'Decoration': 'Pale pink satin bow + gold studs',
+      'MOQ': '100 pcs'
+    }
+  },
+
+  // ═══════════════════════════════════════
+  //  GIFT BASKETS — DXD9908 Series
+  // ═══════════════════════════════════════
+  {
+    id: 'dxd-008',
+    name: 'DXD9908 Gift Basket — Studded Square',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9908/DXD9908_01.png',
+      'basket/DXD9908/DXD9908_02.png',
+      'basket/DXD9908/DXD9908_03.png',
+      'basket/DXD9908/DXD9908_04.png',
+      'basket/DXD9908/DXD9908_05.png',
+      'basket/DXD9908/DXD9908_06.png',
+      'basket/DXD9908/DXD9908_07.png'
+    ],
+    desc: 'Stylish square-base gift basket with rounded corners and four decorative petal-like top extensions that form an integrated handle. Adorned with three gold-toned metal studs along each side seam. Tied with a colorful eclectic-patterned scarf bow. Bright cheerful presence — perfect as a gift container or decorative piece.',
+    scenes: ['Gift Container', 'Home Decor', 'Retail Display', 'Easter Gift', 'Spring Event'],
+    materials: ['PU Leather (Matte)', 'Silk Scarf (Eclectic Pattern)', 'Gold Metal Studs'],
+    specs: {
+      'Model': 'DXD9908',
+      'Material': 'PU Leather, matte finish',
+      'Colors': 'Yellow (shown), available in multiple colors',
+      'Handle': 'Four petal extensions forming integrated handle',
+      'Decoration': 'Colorful printed scarf bow + gold stud rows',
+      'MOQ': '100 pcs'
     }
   }
 ];
