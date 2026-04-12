@@ -322,85 +322,6 @@ const products = [
       'MOQ': '50 pcs'
     }
   },
-  {
-    id: 'cb-002',
-    name: 'Croc Embossed Tote Bag — Green & Multicolor',
-    category: 'leather-packaging',
-    images: [
-      'basket/69B(]%F9G2}Q{TBN(_1H6P3.jpg',
-      'basket/1157-1588-S2-AX4186.JPG',
-      'flowerpot/IMG_20170119_114707.jpg',
-      'flowerpot/IMG_20170119_115200.jpg',
-      'flowerpot/IMG_20170119_115415.jpg'
-    ],
-    desc: 'Vibrant croc embossed tote bags in green, maroon, tan and taupe. Each features matching heart-shaped metal accents and contrast stitching. Popular for retail and fashion gifting.',
-    scenes: ['Fashion Retail', 'Beach Outing', 'Gift Set', 'Resort Wear'],
-    materials: ['PU Leather (Croc Embossed)', 'Heart-shaped Metal', 'Black Lining'],
-    specs: {
-      'Material': 'PU Leather, croc embossed',
-      'Size': '36 × 30 × 26 cm',
-      'Colors': 'Light Green, Maroon, Tan, Taupe',
-      'Handle': 'Arched handles w/ heart patches',
-      'Interior': 'Black fabric lining',
-      'Logo': 'Deboss / Hot-stamp',
-      'MOQ': '50 pcs (mixed colors available)'
-    }
-  },
-
-  // ═══════════════════════════════════════
-  //  STORAGE BASKETS — T-Shape Profile
-  // ═══════════════════════════════════════
-  {
-    id: 'sb-001',
-    name: 'Woven Storage Basket — T-Profile with Lid',
-    category: 'accessories',
-    images: [
-      't-shaped bucket/DX30350 (2).jpg',
-      't-shaped bucket/DX30350.jpg',
-      't-shaped bucket/DX30350A.jpg',
-      't-shaped bucket/DX30350B.jpg',
-      't-shaped bucket/DX30350C.jpg',
-      't-shaped bucket/DX30350D.jpg'
-    ],
-    desc: 'Elegant woven texture storage basket with T-profile rounded corners. Features leather trim on top and bottom edges with contrast white stitching. Includes matching lid. Ideal for living room, bathroom, or bedroom organization.',
-    scenes: ['Living Room', 'Bathroom', 'Bedroom', 'Office', 'Retail Display'],
-    materials: ['PU Leather (Woven)', 'Leather Trim', 'Contrast Stitching'],
-    specs: {
-      'Material': 'PU Leather, woven texture',
-      'Size': '28 × 22 × 26 cm',
-      'Colors': 'Gray/White, Tan/White, Brown/White',
-      'Profile': 'T-profile with rounded corners',
-      'Lid': 'Included (leather + woven)',
-      'Logo': 'Deboss on lid or front',
-      'MOQ': '50 pcs'
-    }
-  },
-  {
-    id: 'sb-002',
-    name: 'Woven Storage Basket — Open Top',
-    category: 'accessories',
-    images: [
-      't-shaped bucket/20150112_210359(1).jpg',
-      't-shaped bucket/20150112_210457.jpg',
-      't-shaped bucket/49930-7 brown.jpg',
-      't-shaped bucket/9717R DX30530.jpg',
-      't-shaped bucket/9717R.jpg',
-      't-shaped bucket/47264-5 DX10994 10995 10996.jpg',
-      't-shaped bucket/47265-5 DX10994.jpg'
-    ],
-    desc: 'Open-top woven leather storage basket with leather handles and buckle closure. Cross-hatch woven pattern with leather border and stitching. Great for magazines, towels, or daily essentials.',
-    scenes: ['Living Room', 'Magazine Rack', 'Bathroom', 'Kitchen', 'Kids Room'],
-    materials: ['PU Leather (Cross-hatch Woven)', 'Leather Handles', 'Metal Buckle'],
-    specs: {
-      'Material': 'PU Leather, cross-hatch woven',
-      'Size': '32 × 25 × 28 cm',
-      'Colors': 'Black, Brown, Tan, Gray',
-      'Handle': 'Two leather handles w/ buckle',
-      'Profile': 'T-profile, open top',
-      'Logo': 'Deboss / Silk-print',
-      'MOQ': '50 pcs'
-    }
-  },
 
   // ═══════════════════════════════════════
   //  MINI FAVOR BAGS — DXD9906 Series
@@ -526,43 +447,417 @@ const products = [
   },
 
   // ═══════════════════════════════════════
-  //  MINI FAVOR BAGS — DXD9910 Series
+  //  DESKTOP SUPPLIES — DXD9911 Series
   // ═══════════════════════════════════════
   {
     id: 'dxd-010',
-    name: 'DXD9910带钥匙扣小巧皮革笔架',
-    category: 'accessories',
+    name: 'DXD9911双层折叠皮革收纳盒',
+    category: 'desktop-supplies',
     images: [
-      'accessories/DXD9910/DXD9910_01.png',
-      'accessories/DXD9910/DXD9910_02.png',
-      'accessories/DXD9910/DXD9910_03.png',
-      'accessories/DXD9910/DXD9910_04.png',
-      'accessories/DXD9910/DXD9910_06.png',
-      'accessories/DXD9910/DXD9910_07.png',
-      'accessories/DXD9910/DXD9910_08.png',
-      'accessories/DXD9910/DXD9910_09.png',
-      'accessories/DXD9910/DXD9910_10.png',
-      'accessories/DXD9910/DXD9910_11.png',
-      'accessories/DXD9910/DXD9910_12.png',
-      'accessories/DXD9910/DXD9910_13.png',
-      'accessories/DXD9910/DXD9910_14.png',
-      'accessories/DXD9910/DXD9910_15.png',
-      'accessories/DXD9910/DXD9910_16.png',
-      'accessories/DXD9910/DXD9910_17.png',
-      'accessories/DXD9910/DXD9910_18.png',
-      'accessories/DXD9910/DXD9910_19.png',
-      'accessories/DXD9910/DXD9910_20.png',
-      'accessories/DXD9910/DXD9910_21.png',
-      'accessories/DXD9910/DXD9910_22.png'
+      'desktop-supplies/DXD9911/DXD9911_01.png',
+      'desktop-supplies/DXD9911/DXD9911_02.png',
+      'desktop-supplies/DXD9911/DXD9911_03.png',
+      'desktop-supplies/DXD9911/DXD9911_04.png',
+      'desktop-supplies/DXD9911/DXD9911_05.png',
+      'desktop-supplies/DXD9911/DXD9911_06.png',
+      'desktop-supplies/DXD9911/DXD9911_07.png',
+      'desktop-supplies/DXD9911/DXD9911_08.png',
+      'desktop-supplies/DXD9911/DXD9911_09.png',
+      'desktop-supplies/DXD9911/DXD9911_10.png',
+      'desktop-supplies/DXD9911/DXD9911_11.png',
+      'desktop-supplies/DXD9911/DXD9911_12.png',
+      'desktop-supplies/DXD9911/DXD9911_13.png'
     ],
-    desc: 'Compact leather pen holder with integrated keychain. Features elegant design with smooth texture, perfect for desk organization or as a stylish accessory.',
-    scenes: ['Office', 'Desk Organization', 'Gift Set', 'Retail Display'],
-    materials: ['PU Leather', 'Metal Keychain'],
+    desc: 'Elegant desktop organizer with compact design. Perfect for office desk organization and accessories storage.',
+    scenes: ['Office', 'Desk Organization', 'Home Office'],
+    materials: ['PU Leather', 'Metal Accessories'],
     specs: {
-      'Model': 'DXD9910',
+      'Model': 'DXD9911',
       'Material': 'PU Leather',
-      'Size': '8×4.5cm',
-      'Feature': 'Integrated keychain',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-011',
+    name: 'DXD9912皮革灯罩',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9912/DXD9912_01.png',
+      'desktop-supplies/DXD9912/DXD9912_02.png',
+      'desktop-supplies/DXD9912/DXD9912_03.png',
+      'desktop-supplies/DXD9912/DXD9912_04.png',
+      'desktop-supplies/DXD9912/DXD9912_05.png',
+      'desktop-supplies/DXD9912/DXD9912_06.png',
+      'desktop-supplies/DXD9912/DXD9912_07.png',
+      'desktop-supplies/DXD9912/DXD9912_08.png'
+    ],
+    desc: 'Elegant leather lampshade with sophisticated design. Creates warm ambient lighting while adding a touch of luxury to any room. Perfect for living room, bedroom, or study.',
+    scenes: ['Living Room', 'Bedroom', 'Study', 'Hotel', 'Restaurant Decor'],
+    materials: ['PU Leather', 'Metal Frame'],
+    specs: {
+      'Model': 'DXD9912',
+      'Material': 'PU Leather + Metal Frame',
+      'Style': 'Modern Minimalist',
+      'Light Source': 'E27 Bulb (not included)',
+      'MOQ': '20 pcs'
+    }
+  },
+  {
+    id: 'dxd-012',
+    name: 'DXD9913皮革彩旗三角旗装饰',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9913/DXD9913_01.png',
+      'desktop-supplies/DXD9913/DXD9913_02.png',
+      'desktop-supplies/DXD9913/DXD9913_03.png',
+      'desktop-supplies/DXD9913/DXD9913_04.png',
+      'desktop-supplies/DXD9913/DXD9913_05.png',
+      'desktop-supplies/DXD9913/DXD9913_06.png',
+      'desktop-supplies/DXD9913/DXD9913_07.png',
+      'desktop-supplies/DXD9913/DXD9913_08.png',
+      'desktop-supplies/DXD9913/DXD9913_09.png',
+      'desktop-supplies/DXD9913/DXD9913_10.png',
+      'desktop-supplies/DXD9913/DXD9913_11.png',
+      'desktop-supplies/DXD9913/DXD9913_12.png',
+      'desktop-supplies/DXD9913/DXD9913_13.png',
+      'desktop-supplies/DXD9913/DXD9913_14.png',
+      'desktop-supplies/DXD9913/DXD9913_15.png',
+      'desktop-supplies/DXD9913/DXD9913_16.png',
+      'desktop-supplies/DXD9913/DXD9913_17.png'
+    ],
+    desc: 'Decorative leather bunting with triangle flags strung on cord. Perfect for party decoration, wedding ambiance, or festive events. Adds an elegant touch to any celebration.',
+    scenes: ['Party Decoration', 'Wedding', 'Birthday Party', 'Festival', 'Restaurant Decor'],
+    materials: ['PU Leather', 'Cotton Cord'],
+    specs: {
+      'Model': 'DXD9913',
+      'Material': 'PU Leather',
+      'Style': 'Bunting / Banner',
+      'MOQ': '50 sets'
+    }
+  },
+  {
+    id: 'dxd-013',
+    name: 'DXD9914简约皮革抽纸盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9914/DXD9914_01.png',
+      'desktop-supplies/DXD9914/DXD9914_02.png',
+      'desktop-supplies/DXD9914/DXD9914_03.png',
+      'desktop-supplies/DXD9914/DXD9914_04.png',
+      'desktop-supplies/DXD9914/DXD9914_05.png',
+      'desktop-supplies/DXD9914/DXD9914_06.png',
+      'desktop-supplies/DXD9914/DXD9914_07.png',
+      'desktop-supplies/DXD9914/DXD9914_08.png',
+      'desktop-supplies/DXD9914/DXD9914_09.png'
+    ],
+    desc: 'Minimalist leather tissue box cover with elegant design. Complements any living room, bathroom, or office space. Keeps tissues clean and adds a touch of sophistication to your decor.',
+    scenes: ['Living Room', 'Bathroom', 'Office', 'Bedroom', 'Hotel'],
+    materials: ['PU Leather', 'Metal Clasp'],
+    specs: {
+      'Model': 'DXD9914',
+      'Material': 'PU Leather',
+      'Style': 'Minimalist Modern',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-014',
+    name: 'DXD9915皮革收纳盒桌面收纳托盘',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9915/DXD9915_01.png',
+      'desktop-supplies/DXD9915/DXD9915_02.png',
+      'desktop-supplies/DXD9915/DXD9915_03.png',
+      'desktop-supplies/DXD9915/DXD9915_04.png',
+      'desktop-supplies/DXD9915/DXD9915_05.png',
+      'desktop-supplies/DXD9915/DXD9915_06.png',
+      'desktop-supplies/DXD9915/DXD9915_07.png'
+    ],
+    desc: 'Leather desktop organizer and storage tray with multiple compartments for pens, cards, phone, and daily essentials. Keeps your desk tidy and professional. Perfect for office and home office use.',
+    scenes: ['Office', 'Desk Organization', 'Home Office', 'Study Room'],
+    materials: ['PU Leather', 'Non-slip Base'],
+    specs: {
+      'Model': 'DXD9915',
+      'Material': 'PU Leather',
+      'Compartments': 'Multiple slots for organization',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-015',
+    name: 'DXD9916双面皮革鼠标垫桌垫键盘垫',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9916/DXD9916_01.png',
+      'desktop-supplies/DXD9916/DXD9916_02.png',
+      'desktop-supplies/DXD9916/DXD9916_03.png',
+      'desktop-supplies/DXD9916/DXD9916_04.png',
+      'desktop-supplies/DXD9916/DXD9916_05.png',
+      'desktop-supplies/DXD9916/DXD9916_06.png',
+      'desktop-supplies/DXD9916/DXD9916_07.png',
+      'desktop-supplies/DXD9916/DXD9916_08.png',
+      'desktop-supplies/DXD9916/DXD9916_09.png',
+      'desktop-supplies/DXD9916/DXD9916_10.png',
+      'desktop-supplies/DXD9916/DXD9916_11.png',
+      'desktop-supplies/DXD9916/DXD9916_12.png',
+      'desktop-supplies/DXD9916/DXD9916_13.png'
+    ],
+    desc: 'Double-sided leather mouse pad, desk mat, and keyboard pad. One side smooth for mouse, other side textured for keyboard. Protects your desk while providing a luxurious writing and working surface.',
+    scenes: ['Office', 'Home Office', 'Gaming Desk', 'Study Room'],
+    materials: ['PU Leather (Double-sided)', 'Non-slip Base'],
+    specs: {
+      'Model': 'DXD9916',
+      'Material': 'PU Leather (Double-sided)',
+      'Feature': 'Smooth side for mouse, textured side for keyboard',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-016',
+    name: 'DXD9917骑行挂脖耳机收纳包',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9917/DXD9917_01.png',
+      'desktop-supplies/DXD9917/DXD9917_02.png',
+      'desktop-supplies/DXD9917/DXD9917_03.png',
+      'desktop-supplies/DXD9917/DXD9917_04.png',
+      'desktop-supplies/DXD9917/DXD9917_05.png',
+      'desktop-supplies/DXD9917/DXD9917_06.png',
+      'desktop-supplies/DXD9917/DXD9917_07.png',
+      'desktop-supplies/DXD9917/DXD9917_08.png',
+      'desktop-supplies/DXD9917/DXD9917_09.png',
+      'desktop-supplies/DXD9917/DXD9917_10.png',
+      'desktop-supplies/DXD9917/DXD9917_11.png',
+      'desktop-supplies/DXD9917/DXD9917_12.png',
+      'desktop-supplies/DXD9917/DXD9917_13.png',
+      'desktop-supplies/DXD9917/DXD9917_14.png',
+      'desktop-supplies/DXD9917/DXD9917_15.png'
+    ],
+    desc: 'Leather neckband earphone storage case designed for cyclists. Features adjustable neck strap and compact compartment to safely store and protect your earphones during rides. Lightweight and portable.',
+    scenes: ['Cycling', 'Outdoor Sports', 'Travel', 'Daily Commute'],
+    materials: ['PU Leather', 'Adjustable Strap'],
+    specs: {
+      'Model': 'DXD9917',
+      'Material': 'PU Leather',
+      'Feature': 'Adjustable neck strap, compact earphone compartment',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-017',
+    name: 'DXD9918皮革手柄咖啡杯套水杯保护套',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9918/DXD9918_01.png',
+      'desktop-supplies/DXD9918/DXD9918_02.png',
+      'desktop-supplies/DXD9918/DXD9918_03.png',
+      'desktop-supplies/DXD9918/DXD9918_04.png',
+      'desktop-supplies/DXD9918/DXD9918_05.png',
+      'desktop-supplies/DXD9918/DXD9918_06.png',
+      'desktop-supplies/DXD9918/DXD9918_07.png',
+      'desktop-supplies/DXD9918/DXD9918_08.png',
+      'desktop-supplies/DXD9918/DXD9918_09.png',
+      'desktop-supplies/DXD9918/DXD9918_10.png',
+      'desktop-supplies/DXD9918/DXD9918_11.png',
+      'desktop-supplies/DXD9918/DXD9918_12.png',
+      'desktop-supplies/DXD9918/DXD9918_13.png',
+      'desktop-supplies/DXD9918/DXD9918_14.png'
+    ],
+    desc: 'Leather handle cover for coffee cups and water bottles. Protects hands from hot beverages while adding a stylish look. Compatible with most standard-sized cups and bottles. Anti-slip grip design.',
+    scenes: ['Office', 'Home', 'Outdoors', 'Travel', 'Café'],
+    materials: ['PU Leather', 'Heat-resistant Liner'],
+    specs: {
+      'Model': 'DXD9918',
+      'Material': 'PU Leather',
+      'Feature': 'Heat-resistant, anti-slip grip',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-018',
+    name: 'DXD9919皮革文具收纳袋',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9919/DXD9919_01.png',
+      'desktop-supplies/DXD9919/DXD9919_02.png',
+      'desktop-supplies/DXD9919/DXD9919_03.png',
+      'desktop-supplies/DXD9919/DXD9919_04.png',
+      'desktop-supplies/DXD9919/DXD9919_05.png',
+      'desktop-supplies/DXD9919/DXD9919_06.png',
+      'desktop-supplies/DXD9919/DXD9919_07.png',
+      'desktop-supplies/DXD9919/DXD9919_08.png',
+      'desktop-supplies/DXD9919/DXD9919_09.png',
+      'desktop-supplies/DXD9919/DXD9919_10.png',
+      'desktop-supplies/DXD9919/DXD9919_11.png',
+      'desktop-supplies/DXD9919/DXD9919_12.png',
+      'desktop-supplies/DXD9919/DXD9919_13.png',
+      'desktop-supplies/DXD9919/DXD9919_14.png'
+    ],
+    desc: 'Leather stationery organizer bag for pens, pencils, erasers, and small office supplies. Zipper closure keeps items secure. Slim profile fits easily in bags and pencil cases. Perfect for students and professionals.',
+    scenes: ['Office', 'School', 'Study', 'Travel'],
+    materials: ['PU Leather', 'Metal Zipper'],
+    specs: {
+      'Model': 'DXD9919',
+      'Material': 'PU Leather',
+      'Feature': 'Zipper closure, slim profile',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-019',
+    name: 'DXD9920素面长方形皮革餐垫',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9920/DXD9920_01.png',
+      'desktop-supplies/DXD9920/DXD9920_02.png',
+      'desktop-supplies/DXD9920/DXD9920_03.png',
+      'desktop-supplies/DXD9920/DXD9920_04.png',
+      'desktop-supplies/DXD9920/DXD9920_05.png',
+      'desktop-supplies/DXD9920/DXD9920_06.png',
+      'desktop-supplies/DXD9920/DXD9920_07.png',
+      'desktop-supplies/DXD9920/DXD9920_08.png',
+      'desktop-supplies/DXD9920/DXD9920_09.png'
+    ],
+    desc: 'Smooth rectangular leather placemat for dining table. Protects your table surface from heat, spills, and scratches. Simple elegant design suitable for home, restaurant, or hotel use. Easy to clean and maintain.',
+    scenes: ['Dining Table', 'Restaurant', 'Hotel', 'Home Kitchen'],
+    materials: ['PU Leather', 'Water-resistant Surface'],
+    specs: {
+      'Model': 'DXD9920',
+      'Material': 'PU Leather',
+      'Style': 'Smooth, Plain Rectangle',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-020',
+    name: 'DXD9921皮革帽子夹挂钩',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9921/DXD9921_01.png',
+      'desktop-supplies/DXD9921/DXD9921_02.png',
+      'desktop-supplies/DXD9921/DXD9921_03.png'
+    ],
+    desc: 'Leather hat clip and hook for convenient storage of caps and hats. Clips securely onto bags, belts, or hooks. Keeps your hats in shape and easily accessible. Ideal for travel and daily use.',
+    scenes: ['Travel', 'Outdoor', 'Wardrobe', 'Bag Accessory'],
+    materials: ['PU Leather', 'Metal Clip'],
+    specs: {
+      'Model': 'DXD9921',
+      'Material': 'PU Leather + Metal Clip',
+      'Feature': 'Secure clip attachment',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-021',
+    name: 'DXD9922时尚简约皮革杯垫',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9922/DXD9922_01.png',
+      'desktop-supplies/DXD9922/DXD9922_02.png',
+      'desktop-supplies/DXD9922/DXD9922_03.png',
+      'desktop-supplies/DXD9922/DXD9922_04.png'
+    ],
+    desc: 'Fashionable minimalist leather cup coaster. Protects surfaces from heat and water marks. Sleek design complements any table setting. Set of multiple pieces available. Perfect for home, office, or restaurant.',
+    scenes: ['Dining Table', 'Office Desk', 'Restaurant', 'Hotel'],
+    materials: ['PU Leather', 'Water-resistant Base'],
+    specs: {
+      'Model': 'DXD9922',
+      'Material': 'PU Leather',
+      'Style': 'Minimalist Modern',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-022',
+    name: 'DXD9923卡通猫咪款玄关钥匙托盘',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9923/DXD9923_01.png',
+      'desktop-supplies/DXD9923/DXD9923_02.png',
+      'desktop-supplies/DXD9923/DXD9923_03.png',
+      'desktop-supplies/DXD9923/DXD9923_04.png',
+      'desktop-supplies/DXD9923/DXD9923_05.png',
+      'desktop-supplies/DXD9923/DXD9923_06.png',
+      'desktop-supplies/DXD9923/DXD9923_07.png',
+      'desktop-supplies/DXD9923/DXD9923_08.png'
+    ],
+    desc: 'Cute cartoon cat design leather key tray for entryway. Keeps keys, coins, and small items organized at the door. Adds a touch of personality to your hallway or entrance. Makes finding keys easy and fun.',
+    scenes: ['Entryway', 'Hallway', 'Foyer', 'Home Decoration'],
+    materials: ['PU Leather', 'Non-slip Base'],
+    specs: {
+      'Model': 'DXD9923',
+      'Material': 'PU Leather',
+      'Style': 'Cartoon Cat Design',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-023',
+    name: 'DXD9924皮革爱心餐巾环',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9924/DXD9924_01.png',
+      'desktop-supplies/DXD9924/DXD9924_02.png',
+      'desktop-supplies/DXD9924/DXD9924_03.png',
+      'desktop-supplies/DXD9924/DXD9924_04.png',
+      'desktop-supplies/DXD9924/DXD9924_05.png',
+      'desktop-supplies/DXD9924/DXD9924_06.png',
+      'desktop-supplies/DXD9924/DXD9924_07.png',
+      'desktop-supplies/DXD9924/DXD9924_08.png'
+    ],
+    desc: 'Leather heart-shaped napkin ring for elegant table settings. Adds a romantic touch to dining occasions. Perfect for weddings, anniversaries, Valentine\'s Day, or everyday table decoration. Holds napkins securely in place.',
+    scenes: ['Dining Table', 'Wedding', 'Restaurant', 'Party'],
+    materials: ['PU Leather', 'Heart-shaped Design'],
+    specs: {
+      'Model': 'DXD9924',
+      'Material': 'PU Leather',
+      'Style': 'Heart-shaped',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-024',
+    name: 'DXD9925原色软木皮革杯套皮纹冰咖啡杯套',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9925/DXD9925_01.png',
+      'desktop-supplies/DXD9925/DXD9925_02.png',
+      'desktop-supplies/DXD9925/DXD9925_03.png',
+      'desktop-supplies/DXD9925/DXD9925_04.png',
+      'desktop-supplies/DXD9925/DXD9925_05.png',
+      'desktop-supplies/DXD9925/DXD9925_06.png'
+    ],
+    desc: 'Natural cork and leather texture杯套 for iced coffee and cold beverages. Combines cork and leather aesthetics for a unique rustic look. Keeps drinks cool while providing a comfortable grip. Eco-friendly and stylish.',
+    scenes: ['Café', 'Office', 'Outdoor', 'Travel'],
+    materials: ['Cork', 'PU Leather'],
+    specs: {
+      'Model': 'DXD9925',
+      'Material': 'Cork + PU Leather',
+      'Style': 'Natural Cork Texture',
+      'MOQ': '50 pcs'
+    }
+  },
+  {
+    id: 'dxd-025',
+    name: 'DXD9926收纳笔袋皮革办公笔套',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9926/DXD9926_01.png',
+      'desktop-supplies/DXD9926/DXD9926_02.png',
+      'desktop-supplies/DXD9926/DXD9926_03.png',
+      'desktop-supplies/DXD9926/DXD9926_04.png',
+      'desktop-supplies/DXD9926/DXD9926_05.png',
+      'desktop-supplies/DXD9926/DXD9926_06.png',
+      'desktop-supplies/DXD9926/DXD9926_07.png',
+      'desktop-supplies/DXD9926/DXD9926_08.png'
+    ],
+    desc: 'Leather pen case and office pen holder for organized storage of pens, pencils, and small office supplies. Zipper design keeps items secure. Slim and portable, perfect for professionals on the go.',
+    scenes: ['Office', 'School', 'Business Travel', 'Daily Use'],
+    materials: ['PU Leather', 'Metal Zipper'],
+    specs: {
+      'Model': 'DXD9926',
+      'Material': 'PU Leather',
+      'Feature': 'Zipper closure, portable size',
       'MOQ': '50 pcs'
     }
   }

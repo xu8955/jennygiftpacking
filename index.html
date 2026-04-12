@@ -69,12 +69,6 @@
     <div class="container">
       <h2 class="section-title" data-i18n="cat.title">Our Product Categories</h2>
       <div class="cat-grid">
-        <div class="cat-card" onclick="scrollToProducts('leather-packaging')">
-          <div class="cat-icon">📦</div>
-          <h3 data-i18n="cat.pack">Leather Packaging</h3>
-          <p data-i18n="cat.packDesc">Jewelry boxes, watch boxes, cosmetic cases — crafted in genuine leather, PU, or PVC</p>
-          <span class="cat-link" data-i18n="cat.view">View Products →</span>
-        </div>
         <div class="cat-card" onclick="scrollToProducts('gift-baskets')">
           <div class="cat-icon">🎁</div>
           <h3 data-i18n="cat.gift">Leather Gift Baskets</h3>
@@ -85,6 +79,18 @@
           <div class="cat-icon">🍷</div>
           <h3 data-i18n="cat.wine">Wine Baskets & Hampers</h3>
           <p data-i18n="cat.wineDesc">Single-bottle, double-bottle, and multi-bottle wine carriers in classic leather designs</p>
+          <span class="cat-link" data-i18n="cat.view">View Products →</span>
+        </div>
+        <div class="cat-card" onclick="scrollToProducts('desktop-supplies')">
+          <div class="cat-icon">📚</div>
+          <h3 data-i18n="cat.office">Desktop Office Supplies</h3>
+          <p data-i18n="cat.officeDesc">Desk organizers, pen holders, document trays, and leather desk accessories for home and office</p>
+          <span class="cat-link" data-i18n="cat.view">View Products →</span>
+        </div>
+        <div class="cat-card" onclick="scrollToProducts('leather-packaging')">
+          <div class="cat-icon">📦</div>
+          <h3 data-i18n="cat.pack">Leather Packaging</h3>
+          <p data-i18n="cat.packDesc">Jewelry boxes, watch boxes, cosmetic cases — crafted in genuine leather, PU, or PVC</p>
           <span class="cat-link" data-i18n="cat.view">View Products →</span>
         </div>
         <div class="cat-card" onclick="scrollToProducts('accessories')">
@@ -223,9 +229,10 @@
 
       <div class="prod-filters">
         <button class="filter-btn active" data-filter="all" data-i18n="prod.filterAll">All Products</button>
-        <button class="filter-btn" data-filter="leather-packaging" data-i18n="prod.filterPack">Leather Packaging</button>
         <button class="filter-btn" data-filter="gift-baskets" data-i18n="prod.filterGift">Gift Baskets</button>
         <button class="filter-btn" data-filter="wine-baskets" data-i18n="prod.filterWine">Wine Baskets</button>
+        <button class="filter-btn" data-filter="desktop-supplies" data-i18n="prod.filterOffice">Office Supplies</button>
+        <button class="filter-btn" data-filter="leather-packaging" data-i18n="prod.filterPack">Leather Packaging</button>
         <button class="filter-btn" data-filter="accessories" data-i18n="prod.filterAcc">Accessories</button>
       </div>
 
@@ -443,6 +450,7 @@
           <a href="#products" data-i18n="footer.gift">Gift Baskets</a>
           <a href="#products" data-i18n="footer.wine">Wine Baskets</a>
           <a href="#products" data-i18n="footer.acc">Accessories</a>
+          <a href="#products" data-i18n="footer.office">Office Supplies</a>
         </div>
         <div class="fl-col">
           <h4 data-i18n="footer.company">Company</h4>
