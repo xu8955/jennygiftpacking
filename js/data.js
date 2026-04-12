@@ -523,6 +523,48 @@ const products = [
       'Decoration': 'Satin ribbon bow',
       'MOQ': '100 pcs'
     }
+  },
+
+  // ═══════════════════════════════════════
+  //  MINI FAVOR BAGS — DXD9910 Series
+  // ═══════════════════════════════════════
+  {
+    id: 'dxd-010',
+    name: 'DXD9910带钥匙扣小巧皮革笔架',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9910/DXD9910_01.png',
+      'basket/DXD9910/DXD9910_02.png',
+      'basket/DXD9910/DXD9910_03.png',
+      'basket/DXD9910/DXD9910_04.png',
+      'basket/DXD9910/DXD9910_06.png',
+      'basket/DXD9910/DXD9910_07.png',
+      'basket/DXD9910/DXD9910_08.png',
+      'basket/DXD9910/DXD9910_09.png',
+      'basket/DXD9910/DXD9910_10.png',
+      'basket/DXD9910/DXD9910_11.png',
+      'basket/DXD9910/DXD9910_12.png',
+      'basket/DXD9910/DXD9910_13.png',
+      'basket/DXD9910/DXD9910_14.png',
+      'basket/DXD9910/DXD9910_15.png',
+      'basket/DXD9910/DXD9910_16.png',
+      'basket/DXD9910/DXD9910_17.png',
+      'basket/DXD9910/DXD9910_18.png',
+      'basket/DXD9910/DXD9910_19.png',
+      'basket/DXD9910/DXD9910_20.png',
+      'basket/DXD9910/DXD9910_21.png',
+      'basket/DXD9910/DXD9910_22.png'
+    ],
+    desc: 'Compact leather pen holder with integrated keychain. Features elegant design with smooth texture, perfect for desk organization or as a stylish accessory.',
+    scenes: ['Office', 'Desk Organization', 'Gift Set', 'Retail Display'],
+    materials: ['PU Leather', 'Metal Keychain'],
+    specs: {
+      'Model': 'DXD9910',
+      'Material': 'PU Leather',
+      'Size': '8×4.5cm',
+      'Feature': 'Integrated keychain',
+      'MOQ': '50 pcs'
+    }
   }
 ];
 
