@@ -28,6 +28,10 @@ const t = {
       giftDesc: 'Handcrafted gift baskets for Christmas, Valentine\'s, Mother\'s Day, and corporate gifting',
       wine: 'Wine Baskets & Hampers',
       wineDesc: 'Single-bottle, double-bottle, and multi-bottle wine carriers in classic leather designs',
+      office: 'Desktop Office Supplies',
+      officeDesc: 'Desk organizers, pen holders, document trays, and leather desk accessories for home and office',
+      outdoor: 'Outdoor & Sports',
+      outdoorDesc: 'Leather sports accessories, outdoor gear, cycling bags, and travel essentials for outdoor enthusiasts',
       acc: 'Leather Accessories',
       accDesc: 'Belts, small leather goods, and custom accessories for gifting and retail',
       view: 'View Products →'
@@ -69,6 +73,8 @@ const t = {
       filterPack: 'Leather Packaging',
       filterGift: 'Gift Baskets',
       filterWine: 'Wine Baskets',
+      filterOffice: 'Office Supplies',
+      filterOutdoor: 'Outdoor & Sports',
       filterAcc: 'Accessories'
     },
     feat: {
@@ -165,6 +171,10 @@ const t = {
       giftDesc: '手工制作礼品篮，适用于圣诞、情人节、母亲节及企业礼品',
       wine: '红酒篮与礼盒',
       wineDesc: '单瓶、双瓶、多瓶红酒皮盒，经典设计风格',
+      office: '办公文具',
+      officeDesc: '桌面收纳盒、笔架、文件托盘及皮革办公配件，适用于家居和办公',
+      outdoor: '户外用品',
+      outdoorDesc: '皮革运动配件、户外装备、自行车包及旅行必备品，为户外爱好者设计',
       acc: '皮革配件',
       accDesc: '皮带、皮具小件及定制礼品配件',
       view: '查看产品 →'
@@ -206,6 +216,8 @@ const t = {
       filterPack: '皮革包装',
       filterGift: '礼品篮',
       filterWine: '红酒篮',
+      filterOffice: '办公文具',
+      filterOutdoor: '户外用品',
       filterAcc: '配件'
     },
     feat: {
@@ -302,6 +314,10 @@ const t = {
       giftDesc: 'Handgefertigte Geschenkkörbe für Weihnachten, Valentinstag, Muttertag und Firmengeschenke',
       wine: 'Weinkörbe & Hampers',
       wineDesc: 'Ein-Flaschen-, Zwei-Flaschen- und Multi-Flaschen-Weinträger im klassischen Lederdesign',
+      office: 'Büroartikel',
+      officeDesc: 'Schreibtischorganizer, Stiftehalter, Dokumentenablagen und Leder-Schreibtischzubehör für Zuhause und Büro',
+      outdoor: 'Outdoor & Sport',
+      outdoorDesc: 'Leder-Sportzubehör, Outdoor-Ausrüstung, Fahrradtaschen und Reisezubehör für Outdoor-Enthusiasten',
       acc: 'Lederaccessoires',
       accDesc: 'Gürtel, Kleine Lederwaren und kundenspezifische Accessoires für Geschenke und Einzelhandel',
       view: 'Produkte ansehen →'
@@ -343,6 +359,8 @@ const t = {
       filterPack: 'Lederverpackungen',
       filterGift: 'Geschenkkörbe',
       filterWine: 'Weinkörbe',
+      filterOffice: 'Büroartikel',
+      filterOutdoor: 'Outdoor & Sport',
       filterAcc: 'Accessoires'
     },
     feat: {
@@ -439,6 +457,10 @@ const t = {
       giftDesc: 'Cestas de regalo artesanal para Navidad, San Valentín, Día de la Madre y regalos corporativos',
       wine: 'Portabotellas y Cestas',
       wineDesc: 'Portabotellas para 1, 2 o más botellas en diseños clásicos de cuero',
+      office: 'Suministros de Oficina',
+      officeDesc: 'Organizadores de escritorio, portaplumas, bandejas para documentos y accesorios de cuero para el hogar y oficina',
+      outdoor: 'Outdoor y Deportes',
+      outdoorDesc: 'Accesorios deportivos de cuero, equipamiento outdoor, bolsas para bicicleta y esenciales de viaje para entusiastas del aire libre',
       acc: 'Accesorios de Cuero',
       accDesc: 'Cinturones, pequeños artículos de cuero y accesorios personalizados para regalos y retail',
       view: 'Ver Productos →'
@@ -480,6 +502,8 @@ const t = {
       filterPack: 'Embalaje de Cuero',
       filterGift: 'Cestas de Regalo',
       filterWine: 'Portabotellas',
+      filterOffice: 'Suministros de Oficina',
+      filterOutdoor: 'Outdoor y Deportes',
       filterAcc: 'Accesorios'
     },
     feat: {

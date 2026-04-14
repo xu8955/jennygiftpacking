@@ -59,7 +59,7 @@ const products = [
       'Colors': 'Burgundy, Orange, Blue, Purple, Pink (Set of 5)',
       'Handle': 'Integrated curved handle',
       'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -90,7 +90,7 @@ const products = [
       'Colors': 'Multiple colors available',
       'Handle': 'Integrated curved handle',
       'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -121,7 +121,7 @@ const products = [
       'Colors': 'Multiple colors available',
       'Handle': 'Integrated curved handle',
       'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -152,7 +152,7 @@ const products = [
       'Colors': 'Multiple colors available',
       'Handle': 'Integrated curved handle',
       'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -183,7 +183,7 @@ const products = [
       'Colors': 'Multiple colors available',
       'Handle': 'Integrated curved handle',
       'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   // (removed duplicate DXD9905 entries)
@@ -213,7 +213,7 @@ const products = [
       'Colors': 'Olive Green, Orange, Sage Green, Yellow, Mahogany Brown',
       'Handle': 'Leather strap with brass rivets',
       'Logo': 'Deboss / Hot-stamp',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
 
@@ -242,7 +242,7 @@ const products = [
       'Colors': 'Black, Brown',
       'Closure': 'Gold button + snap strap',
       'Logo': 'Deboss / Hot-stamp',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -267,7 +267,7 @@ const products = [
       'Colors': 'Black',
       'Closure': 'Snap fastener',
       'Logo': 'Deboss / Hot-stamp',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -291,7 +291,7 @@ const products = [
       'Colors': 'Black',
       'Closure': 'Snap fastener',
       'Logo': 'Deboss / Hot-stamp',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
 
@@ -319,7 +319,7 @@ const products = [
       'Handle': 'Two arched handles w/ heart patches',
       'Interior': 'Black polyester lining',
       'Logo': 'Deboss on front or handles',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
 
@@ -351,7 +351,7 @@ const products = [
       'Colors': 'Dark Red, Medium Red (shown with scarves)',
       'Handle': 'Integrated curved handle',
       'Decoration': 'Printed satin scarf bow + gold studs',
-      'MOQ': '100 pcs'
+      'MOQ': '3000 pcs'
     }
   },
 
@@ -382,7 +382,7 @@ const products = [
       'Colors': 'Lilac, Light Blue (shown with bows)',
       'Handle': 'Heart-shaped cutout handle',
       'Decoration': 'Pale pink satin bow + gold studs',
-      'MOQ': '100 pcs'
+      'MOQ': '3000 pcs'
     }
   },
 
@@ -411,7 +411,7 @@ const products = [
       'Colors': 'Yellow (shown), available in multiple colors',
       'Handle': 'Four petal extensions forming integrated handle',
       'Decoration': 'Colorful printed scarf bow + gold stud rows',
-      'MOQ': '100 pcs'
+      'MOQ': '3000 pcs'
     }
   },
 
@@ -442,7 +442,48 @@ const products = [
       'Colors': 'Blue, Orange, Yellow, White, Red (Set of 5)',
       'Handle': 'Integrated curved handle',
       'Decoration': 'Satin ribbon bow',
-      'MOQ': '100 pcs'
+      'MOQ': '3000 pcs'
+    }
+  },
+
+  // ═══════════════════════════════════════
+  //  DESKTOP SUPPLIES — DXD9910 Series
+  // ═══════════════════════════════════════
+  {
+    id: 'dxd-010',
+    name: 'DXD9910便携带钥匙扣小巧皮革笔架',
+    category: 'desktop-supplies',
+    images: [
+      'accessories/DXD9910/DXD9910_01.png',
+      'accessories/DXD9910/DXD9910_02.png',
+      'accessories/DXD9910/DXD9910_03.png',
+      'accessories/DXD9910/DXD9910_04.png',
+      'accessories/DXD9910/DXD9910_06.png',
+      'accessories/DXD9910/DXD9910_07.png',
+      'accessories/DXD9910/DXD9910_08.png',
+      'accessories/DXD9910/DXD9910_09.png',
+      'accessories/DXD9910/DXD9910_10.png',
+      'accessories/DXD9910/DXD9910_11.png',
+      'accessories/DXD9910/DXD9910_12.png',
+      'accessories/DXD9910/DXD9910_13.png',
+      'accessories/DXD9910/DXD9910_14.png',
+      'accessories/DXD9910/DXD9910_15.png',
+      'accessories/DXD9910/DXD9910_16.png',
+      'accessories/DXD9910/DXD9910_17.png',
+      'accessories/DXD9910/DXD9910_18.png',
+      'accessories/DXD9910/DXD9910_19.png',
+      'accessories/DXD9910/DXD9910_20.png',
+      'accessories/DXD9910/DXD9910_21.png',
+      'accessories/DXD9910/DXD9910_22.png'
+    ],
+    desc: '便携式钥匙扣设计，小巧轻便，可挂在包或钥匙上随身携带。既是钥匙扣也是小巧的皮革笔架，方便收纳钢笔、圆珠笔等书写工具。优质PU皮革，耐用且手感舒适。既是实用的办公文具，也是精致的皮具配饰，适合送礼或自用。',
+    scenes: ['Office', 'Desk Organization', 'Home Office', 'Study Room', 'Gift'],
+    materials: ['PU Leather', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9910',
+      'Material': 'PU Leather + Metal',
+      'Feature': '钥匙扣 + 笔架两用设计',
+      'MOQ': '3000 pcs'
     }
   },
 
@@ -450,7 +491,7 @@ const products = [
   //  DESKTOP SUPPLIES — DXD9911 Series
   // ═══════════════════════════════════════
   {
-    id: 'dxd-010',
+    id: 'dxd-011',
     name: 'DXD9911双层折叠皮革收纳盒',
     category: 'desktop-supplies',
     images: [
@@ -474,7 +515,7 @@ const products = [
     specs: {
       'Model': 'DXD9911',
       'Material': 'PU Leather',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -499,7 +540,7 @@ const products = [
       'Material': 'PU Leather + Metal Frame',
       'Style': 'Modern Minimalist',
       'Light Source': 'E27 Bulb (not included)',
-      'MOQ': '20 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -557,7 +598,7 @@ const products = [
       'Model': 'DXD9914',
       'Material': 'PU Leather',
       'Style': 'Minimalist Modern',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -580,7 +621,7 @@ const products = [
       'Model': 'DXD9915',
       'Material': 'PU Leather',
       'Compartments': 'Multiple slots for organization',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -609,7 +650,7 @@ const products = [
       'Model': 'DXD9916',
       'Material': 'PU Leather (Double-sided)',
       'Feature': 'Smooth side for mouse, textured side for keyboard',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -640,7 +681,7 @@ const products = [
       'Model': 'DXD9917',
       'Material': 'PU Leather',
       'Feature': 'Adjustable neck strap, compact earphone compartment',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -670,7 +711,7 @@ const products = [
       'Model': 'DXD9918',
       'Material': 'PU Leather',
       'Feature': 'Heat-resistant, anti-slip grip',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -700,7 +741,7 @@ const products = [
       'Model': 'DXD9919',
       'Material': 'PU Leather',
       'Feature': 'Zipper closure, slim profile',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -725,7 +766,7 @@ const products = [
       'Model': 'DXD9920',
       'Material': 'PU Leather',
       'Style': 'Smooth, Plain Rectangle',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -744,7 +785,7 @@ const products = [
       'Model': 'DXD9921',
       'Material': 'PU Leather + Metal Clip',
       'Feature': 'Secure clip attachment',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -764,7 +805,7 @@ const products = [
       'Model': 'DXD9922',
       'Material': 'PU Leather',
       'Style': 'Minimalist Modern',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -788,7 +829,7 @@ const products = [
       'Model': 'DXD9923',
       'Material': 'PU Leather',
       'Style': 'Cartoon Cat Design',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -812,7 +853,7 @@ const products = [
       'Model': 'DXD9924',
       'Material': 'PU Leather',
       'Style': 'Heart-shaped',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -834,7 +875,7 @@ const products = [
       'Model': 'DXD9925',
       'Material': 'Cork + PU Leather',
       'Style': 'Natural Cork Texture',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
     }
   },
   {
@@ -858,10 +899,248 @@ const products = [
       'Model': 'DXD9926',
       'Material': 'PU Leather',
       'Feature': 'Zipper closure, portable size',
-      'MOQ': '50 pcs'
+      'MOQ': '3000 pcs'
+    }
+  },
+
+  // ═══════════════════════════════════════
+  //  OUTDOOR & SPORTS
+  // ═══════════════════════════════════════
+
+  {
+    id: 'dxd-027',
+    name: 'DXD9927杂物零食首饰收纳盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9927/01.png',
+      'desktop-supplies/DXD9927/02.png',
+      'desktop-supplies/DXD9927/03.png',
+      'desktop-supplies/DXD9927/04.png'
+    ],
+    desc: '杂物零食首饰收纳盒，多格分区设计，可分类存放零食、首饰、文具等小物件。优质PU皮革外壳，内衬柔软，保护物品不受刮擦。',
+    scenes: ['Office', 'Home', 'Bedroom', 'Study Room', 'Storage'],
+    materials: ['PU Leather', 'Soft Lining'],
+    specs: {
+      'Model': 'DXD9927',
+      'Material': 'PU Leather + Soft Lining',
+      'Size': '25 x 14 x 13 cm',
+      'Feature': 'Multi-compartment, multi-purpose organizer',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-028',
+    name: 'DXD9928皮革园艺垫防水换土皮垫',
+    category: 'outdoor',
+    images: [
+      'outdoor/01.png',
+      'outdoor/02.png',
+      'outdoor/03.png',
+      'outdoor/04.png',
+      'outdoor/05.png',
+      'outdoor/06.png'
+    ],
+    desc: '防水皮革园艺垫，适用于户外种植、换土、园艺操作。三个尺寸可选，折叠收纳方便携带，耐用且易于清洁。',
+    scenes: ['Gardening', 'Outdoor', 'Plant Care', 'Backyard', 'Nursery'],
+    materials: ['PU Leather', 'Water-resistant Coating'],
+    specs: {
+      'Model': 'DXD9928',
+      'Material': 'PU Leather + Water-resistant Coating',
+      'Sizes': 'S: 60x30cm / M: 76x45cm / L: 120x60cm',
+      'Weight': 'S: 225g / M: 400-410g / L: 830g',
+      'Feature': 'Waterproof, foldable, easy to clean',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-029',
+    name: 'DXD9929编织皮绳钥匙扣',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9929/01.png',
+      'desktop-supplies/DXD9929/02.png',
+      'desktop-supplies/DXD9929/03.png',
+      'desktop-supplies/DXD9929/04.png',
+      'desktop-supplies/DXD9929/05.png'
+    ],
+    desc: '编织皮绳钥匙扣，简约时尚风格，优质PU皮革绳编织而成，耐用且手感舒适。适用于钥匙、钥匙圈或小物件的悬挂收纳。',
+    scenes: ['Daily Use', 'Gifts', 'Keychain', 'Retail'],
+    materials: ['PU Leather', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9929',
+      'Material': 'PU Leather + Metal',
+      'Size': '12 x 2 x 1 cm',
+      'Feature': 'Braided leather rope, lightweight',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-030',
+    name: 'DXD9930皮革三角形储物盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9930/01.png',
+      'desktop-supplies/DXD9930/02.png',
+      'desktop-supplies/DXD9930/03.png',
+      'desktop-supplies/DXD9930/04.png',
+      'desktop-supplies/DXD9930/05.png',
+      'desktop-supplies/DXD9930/06.png',
+      'desktop-supplies/DXD9930/07.png',
+      'desktop-supplies/DXD9930/08.png'
+    ],
+    desc: '皮革三角形储物盒，设计独特，造型时尚。可用于桌面收纳、钥匙、饰品、文具等小物件的整理收纳。优质PU皮革，耐用且美观。',
+    scenes: ['Office', 'Desk Organization', 'Home', 'Study Room', 'Bedroom'],
+    materials: ['PU Leather', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9930',
+      'Material': 'PU Leather',
+      'Style': 'Triangular Shape',
+      'Feature': 'Unique design, desktop organizer',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-031',
+    name: 'DXD9931花朵形状皮革折叠收纳盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9931/01.png',
+      'desktop-supplies/DXD9931/02.png',
+      'desktop-supplies/DXD9931/03.png',
+      'desktop-supplies/DXD9931/04.png',
+      'desktop-supplies/DXD9931/05.png',
+      'desktop-supplies/DXD9931/06.png',
+      'desktop-supplies/DXD9931/07.png'
+    ],
+    desc: '花朵形状皮革折叠收纳盒，设计新颖时尚，可折叠收纳节省空间。适用于桌面收纳、化妆品、文具、小饰品等的整理。优质PU皮革，耐用美观。',
+    scenes: ['Office', 'Desk Organization', 'Bedroom', 'Bathroom', 'Gift'],
+    materials: ['PU Leather', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9931',
+      'Material': 'PU Leather',
+      'Style': 'Flower Shape, Foldable',
+      'Feature': 'Collapsible, space-saving design',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-032',
+    name: 'DXD9932皮革笔筒化妆刷收纳筒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9932/01.png',
+      'desktop-supplies/DXD9932/02.png',
+      'desktop-supplies/DXD9932/03.png',
+      'desktop-supplies/DXD9932/04.png',
+      'desktop-supplies/DXD9932/05.png',
+      'desktop-supplies/DXD9932/06.png',
+      'desktop-supplies/DXD9932/07.png',
+      'desktop-supplies/DXD9932/08.png'
+    ],
+    desc: '皮革笔筒化妆刷收纳筒，精致时尚，可收纳钢笔、化妆刷、画笔等。优质PU皮革，耐用且美观，适合办公桌或梳妆台使用。',
+    scenes: ['Office', 'Vanity', 'Art', 'Desk Organization', 'Beauty'],
+    materials: ['PU Leather', 'Metal Base'],
+    specs: {
+      'Model': 'DXD9932',
+      'Material': 'PU 皮革',
+      'Style': 'Cylindrical organizer',
+      'Feature': 'Pen holder and cosmetics brush organizer',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-034',
+    name: 'DXD9934皮革置物化妆品皮质托盘',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9934/01.png',
+      'desktop-supplies/DXD9934/02.png',
+      'desktop-supplies/DXD9934/03.png',
+      'desktop-supplies/DXD9934/04.png',
+      'desktop-supplies/DXD9934/05.png',
+      'desktop-supplies/DXD9934/06.png',
+      'desktop-supplies/DXD9934/07.png',
+      'desktop-supplies/DXD9934/08.png'
+    ],
+    desc: '皮革置物化妆品皮质托盘，优雅简约设计，适合收纳化妆品、首饰、文具等桌面小物。优质PU皮革，柔软内衬保护物品，是卧室、梳妆台、办公桌的理想收纳选择。',
+    scenes: ['Vanity', 'Office', 'Bedroom', 'Desk Organization', 'Bathroom'],
+    materials: ['PU Leather', 'Soft Lining'],
+    specs: {
+      'Model': 'DXD9934',
+      'Material': 'PU Leather',
+      'Style': 'Tray / Organizer',
+      'Feature': 'Multi-purpose desktop and vanity tray',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-035',
+    name: 'DXD9935皮革折叠桌面摆件收纳盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9935/01.png',
+      'desktop-supplies/DXD9935/02.png',
+      'desktop-supplies/DXD9935/03.png',
+      'desktop-supplies/DXD9935/04.png',
+      'desktop-supplies/DXD9935/05.png',
+      'desktop-supplies/DXD9935/06.png',
+      'desktop-supplies/DXD9935/07.png',
+      'desktop-supplies/DXD9935/08.png',
+      'desktop-supplies/DXD9935/09.png'
+    ],
+    desc: '皮革折叠桌面摆件收纳盒，可折叠设计便于收纳和携带。适用于桌面收纳、装饰品摆放、文具整理等。优质PU皮革，简约时尚。',
+    scenes: ['Office', 'Home Decoration', 'Desk Organization', 'Bedroom', 'Study Room'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9935',
+      'Material': 'PU Leather',
+      'Style': 'Foldable Desktop Organizer',
+      'Feature': 'Foldable, space-saving design',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-036',
+    name: 'DXD9936皮革折叠桌面收纳盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9936/01.png',
+      'desktop-supplies/DXD9936/02.png',
+      'desktop-supplies/DXD9936/03.png',
+      'desktop-supplies/DXD9936/04.png',
+      'desktop-supplies/DXD9936/05.png',
+      'desktop-supplies/DXD9936/06.png'
+    ],
+    desc: '皮革折叠桌面收纳盒，简约时尚，可折叠设计便于收纳和携带。适合办公桌面、梳妆台、卧室使用，分类存放文具、饰品、化妆品等小物件。',
+    scenes: ['Office', 'Bedroom', 'Vanity', 'Desk Organization', 'Home Decoration'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9936',
+      'Material': 'PU Leather',
+      'Style': 'Foldable Desktop Organizer',
+      'Feature': 'Foldable, space-saving',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'outdoor-001',
+    name: 'Outdoor Collection - More Coming Soon',
+    category: 'outdoor',
+    images: [
+      'outdoor/placeholder.jpg'
+    ],
+    desc: '更多户外产品即将上线，敬请期待！',
+    scenes: ['Cycling', 'Hiking', 'Camping', 'Travel', 'Outdoor Sports'],
+    materials: ['PU Leather', 'Water-resistant Fabric'],
+    specs: {
+      'Category': 'Outdoor & Sports',
+      'Status': 'Coming Soon',
+      'MOQ': '3000 pcs'
     }
   }
 ];
+
+
 
 const company = {
   name: 'Xiamen DoWin Industrial & Trade Co., Ltd.',
