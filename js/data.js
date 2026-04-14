@@ -1123,6 +1123,72 @@ const products = [
     }
   },
   {
+    id: 'dxd-037',
+    name: 'DXD9937皮革名片盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9937/01.png',
+      'desktop-supplies/DXD9937/02.png',
+      'desktop-supplies/DXD9937/03.png'
+    ],
+    desc: '皮革名片盒，简约商务风格，优质PU皮革材质，小巧便携。适合商务人士收纳和携带名片，保护名片不受折损。',
+    scenes: ['Business', 'Office', 'Gift', 'Professional'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9937',
+      'Material': 'PU Leather',
+      'Style': 'Business Card Holder',
+      'Feature': 'Compact, portable',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-038',
+    name: 'DXD9938婚礼喜糖盒皮质双层蝴蝶结收纳袋',
+    category: 'leather-packaging',
+    images: [
+      'leather-packaging/DXD9938/01.png',
+      'leather-packaging/DXD9938/02.png',
+      'leather-packaging/DXD9938/03.png',
+      'leather-packaging/DXD9938/04.png',
+      'leather-packaging/DXD9938/05.png',
+      'leather-packaging/DXD9938/06.png',
+      'leather-packaging/DXD9938/07.png',
+      'leather-packaging/DXD9938/08.png'
+    ],
+    desc: '婚礼喜糖盒皮质双层蝴蝶结收纳袋，精致优雅，适合婚礼、回门宴、喜宴等场合使用。可装糖果、巧克力、小礼品等，是婚礼回礼的理想选择。',
+    scenes: ['Wedding', 'Party', 'Gift', 'Celebration', 'Bridal Shower'],
+    materials: ['PU Leather', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9938',
+      'Material': 'PU Leather + Satin',
+      'Style': 'Double-layer Bow Design',
+      'Feature': 'Wedding favor bag, elegant design',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-039',
+    name: 'DXD9939可爱糖果色小零钱包硬币包钥匙包',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9939/01.png',
+      'desktop-supplies/DXD9939/02.png',
+      'desktop-supplies/DXD9939/03.png',
+      'desktop-supplies/DXD9939/04.png'
+    ],
+    desc: '可爱糖果色小零钱包硬币包钥匙包，创意马卡龙色系，手感舒适。可用于收纳硬币、纸币、钥匙、小物件等，轻巧便携，适合日常出行。',
+    scenes: ['Daily Use', 'Gift', 'Keychain', 'Coin Purse', 'Retail'],
+    materials: ['PU Leather', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9939',
+      'Material': 'PU Leather + Metal',
+      'Style': 'Candy Color, Macaron Style',
+      'Feature': 'Compact coin purse and keychain combo',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
     id: 'outdoor-001',
     name: 'Outdoor Collection - More Coming Soon',
     category: 'outdoor',
