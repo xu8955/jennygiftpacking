@@ -447,6 +447,62 @@ const products = [
   },
 
   // ═══════════════════════════════════════
+  //  MINI FAVOR BAGS — DXD9940 Series
+  {
+    id: 'dxd-015',
+    name: 'DXD9940 Mini Favor Bag — Solid Color Collection',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9940/DXD9940_01.png',
+      'basket/DXD9940/DXD9940_02.png',
+      'basket/DXD9940/DXD9940_03.png',
+      'basket/DXD9940/DXD9940_05.png',
+      'basket/DXD9940/DXD9940_06.png',
+      'basket/DXD9940/DXD9940_07.png',
+      'basket/DXD9940/DXD9940_08.png'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags in solid rich colors. Set of multiple shades — perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with integrated curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9940',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Set of 5 colors',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '3000 pcs'
+    }
+  },
+
+  // ═══════════════════════════════════════
+  //  MINI FAVOR BAGS — DXD9941 Series
+  {
+    id: 'dxd-040',
+    name: 'DXD9941 Mini Favor Bag — Solid Color Collection',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9941/DXD9941_01.png',
+      'basket/DXD9941/DXD9941_02.png',
+      'basket/DXD9941/DXD9941_03.png',
+      'basket/DXD9941/DXD9941_04.png',
+      'basket/DXD9941/DXD9941_05.png',
+      'basket/DXD9941/DXD9941_06.png',
+      'basket/DXD9941/DXD9941_07.png'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags in solid rich colors. Set of multiple shades — perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with integrated curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9941',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Set of multiple colors',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '3000 pcs'
+    }
+  },
+
+  // ═══════════════════════════════════════
   //  DESKTOP SUPPLIES — DXD9910 Series
   // ═══════════════════════════════════════
   {
@@ -1189,6 +1245,112 @@ const products = [
     }
   },
   {
+    id: 'dxd-041',
+    name: 'DXD9943蝙蝠款锌合金钥匙扣挂件',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9943/01.png',
+      'desktop-supplies/DXD9943/02.png',
+      'desktop-supplies/DXD9943/03.png',
+      'desktop-supplies/DXD9943/04.png',
+      'desktop-supplies/DXD9943/05.png',
+      'desktop-supplies/DXD9943/06.png',
+      'desktop-supplies/DXD9943/07.png'
+    ],
+    desc: '蝙蝠款锌合金钥匙扣挂件，精致耐用。优质锌合金材质，光泽感强，不易褪色。用于钥匙扣、包挂、饰品挂件，适合礼品赠送或零售。',
+    scenes: ['Daily Use', 'Gift', 'Keychain', 'Retail', 'Accessories'],
+    materials: ['Zinc Alloy', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9943',
+      'Material': 'Zinc Alloy',
+      'Size': '如图',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-042',
+    name: 'DXD9944简约皮革收纳纸巾盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9944/DXD9944_01.png',
+      'desktop-supplies/DXD9944/DXD9944_02.png',
+      'desktop-supplies/DXD9944/DXD9944_03.png',
+      'desktop-supplies/DXD9944/DXD9944_04.png',
+      'desktop-supplies/DXD9944/DXD9944_05.png'
+    ],
+    desc: '简约皮革收纳纸巾盒，优质PU皮革，触感舒适。用于收纳纸巾、湿巾等日常用品，简约时尚，适合家居、办公、旅行携带。',
+    scenes: ['Home', 'Office', 'Travel', 'Daily Use', 'Gift'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9944',
+      'Material': 'PU Leather',
+      'Size': '如图',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-043',
+    name: 'DXD9945黑白千格鸟皮革收纳盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9945/DXD9945_01.png',
+      'desktop-supplies/DXD9945/DXD9945_02.png',
+      'desktop-supplies/DXD9945/DXD9945_03.png',
+      'desktop-supplies/DXD9945/DXD9945_04.png',
+      'desktop-supplies/DXD9945/DXD9945_07.png'
+    ],
+    desc: '黑白千格鸟皮革收纳盒，精致PU皮革，千鸟格纹时尚设计。用于收纳文具、化妆品、小物件等，摆在桌面既是收纳工具也是装饰品。',
+    scenes: ['Office', 'Home Office', 'Desk Organization', 'Gift', 'Study Room'],
+    materials: ['PU Leather', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9945',
+      'Material': 'PU Leather',
+      'Pattern': '黑白千鸟格',
+      'Size': '如图',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-044',
+    name: 'DXD9946心形皮革数据耳机蓝牙线收纳器',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9946/DXD9946_01.png',
+      'desktop-supplies/DXD9946/DXD9946_02.png'
+    ],
+    desc: '黑白千格鸟皮革收纳盒，精致PU皮革，千鸟格纹时尚设计。用于收纳文具、化妆品、小物件等，摆在桌面既是收纳工具也是装饰品。',
+    scenes: ['Office', 'Home Office', 'Desk Organization', 'Gift', 'Study Room'],
+    materials: ['PU Leather', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9946',
+      'Material': 'PU Leather',
+      'Pattern': '黑白千鸟格',
+      'Size': '如图',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-045',
+    name: 'DXD9947卡扣式皮革桌面纸巾盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9947/DXD9947_01.png',
+      'desktop-supplies/DXD9947/DXD9947_02.png',
+      'desktop-supplies/DXD9947/DXD9947_03.png',
+      'desktop-supplies/DXD9947/DXD9947_04.png'
+    ],
+    desc: '卡扣式皮革桌面纸巾盒，优质PU皮革，简约时尚。卡扣设计方便拆卸和补充纸巾，适用于家居、办公、旅行等场景。',
+    scenes: ['Home', 'Office', 'Travel', 'Daily Use', 'Gift'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9947',
+      'Material': 'PU Leather',
+      'Style': '卡扣式',
+      'Size': '如图',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
     id: 'dxd-009b',
     name: 'DXD9909 Mini Favor Bag - Floral Scarf Collection',
     category: 'leather-packaging',
@@ -1210,6 +1372,56 @@ const products = [
       'Model': 'DXD9909',
       'Material': 'PU Leather, textured finish',
       'Colors': 'Blue, Orange, Yellow, White, Red (Set of 5)',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-015b',
+    name: 'DXD9940 Mini Favor Bag - Solid Color Collection',
+    category: 'leather-packaging',
+    images: [
+      'basket/DXD9940/DXD9940_01.png',
+      'basket/DXD9940/DXD9940_02.png',
+      'basket/DXD9940/DXD9940_03.png',
+      'basket/DXD9940/DXD9940_05.png',
+      'basket/DXD9940/DXD9940_06.png',
+      'basket/DXD9940/DXD9940_07.png',
+      'basket/DXD9940/DXD9940_08.png'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags in solid rich colors. Set of multiple shades - perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with integrated curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9940',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Set of 5 colors',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-040b',
+    name: 'DXD9941 Mini Favor Bag - Solid Color Collection',
+    category: 'leather-packaging',
+    images: [
+      'basket/DXD9941/DXD9941_01.png',
+      'basket/DXD9941/DXD9941_02.png',
+      'basket/DXD9941/DXD9941_03.png',
+      'basket/DXD9941/DXD9941_04.png',
+      'basket/DXD9941/DXD9941_05.png',
+      'basket/DXD9941/DXD9941_06.png',
+      'basket/DXD9941/DXD9941_07.png'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags in solid rich colors. Set of multiple shades - perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with integrated curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9941',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Set of multiple colors',
       'Handle': 'Integrated curved handle',
       'Decoration': 'Satin ribbon bow',
       'MOQ': '3000 pcs'
