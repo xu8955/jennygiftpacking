@@ -1429,17 +1429,71 @@ const products = [
   },
   {
     id: 'outdoor-001',
-    name: 'Outdoor Collection - More Coming Soon',
+    name: 'Decorative Flower Pot Leather Cover — DXD9949',
     category: 'outdoor',
     images: [
-      'outdoor/placeholder.jpg'
+      'outdoor/DXD9949/DXD9949_01.png',
+      'outdoor/DXD9949/DXD9949_02.png',
+      'outdoor/DXD9949/DXD9949_03.png',
+      'outdoor/DXD9949/DXD9949_04.png',
+      'outdoor/DXD9949/DXD9949_05.png',
+      'outdoor/DXD9949/DXD9949_06.png',
+      'outdoor/DXD9949/DXD9949_07.png',
+      'outdoor/DXD9949/DXD9949_08.png',
+      'outdoor/DXD9949/DXD9949_09.png',
+      'outdoor/DXD9949/DXD9949_10.png'
     ],
-    desc: '更多户外产品即将上线，敬请期待！',
-    scenes: ['Cycling', 'Hiking', 'Camping', 'Travel', 'Outdoor Sports'],
-    materials: ['PU Leather', 'Water-resistant Fabric'],
+    desc: 'Decorative flower pot leather cover, elegant texture suitable for living room, flower shop, and home decor. Adds a refined touch to any space.',
+    scenes: ['Living Room', 'Flower Shop', 'Home Decor', 'Gift Set'],
+    materials: ['PU Leather'],
     specs: {
-      'Category': 'Outdoor & Sports',
-      'Status': 'Coming Soon',
+      'Model': 'DXD9949',
+      'Material': 'PU Leather',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'outdoor-002',
+    name: 'Flower Bouquet Packaging Bag — DXD9950',
+    category: 'outdoor',
+    images: [
+      'outdoor/DXD9950/DXD9950_01.png',
+      'outdoor/DXD9950/DXD9950_02.png',
+      'outdoor/DXD9950/DXD9950_03.png',
+      'outdoor/DXD9950/DXD9950_04.png',
+      'outdoor/DXD9950/DXD9950_05.png',
+      'outdoor/DXD9950/DXD9950_06.png'
+    ],
+    desc: 'Flower bouquet packaging bag, perfect for flower hand-held carrying and floral gift presentations. Durable and elegant.',
+    scenes: ['Flower Shop', 'Gift Packaging', 'Bridal Bouquet', 'Event Decor'],
+    materials: ['PU Leather', 'Fabric'],
+    specs: {
+      'Model': 'DXD9950',
+      'Material': 'PU Leather + Fabric',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'outdoor-003',
+    name: 'Handheld Flower Bag — DXD9951',
+    category: 'outdoor',
+    images: [
+      'outdoor/DXD9951/DXD9951_01.png',
+      'outdoor/DXD9951/DXD9951_02.png',
+      'outdoor/DXD9951/DXD9951_03.png',
+      'outdoor/DXD9951/DXD9951_04.png',
+      'outdoor/DXD9951/DXD9951_05.png'
+    ],
+    desc: 'Handheld flower bag for flower shop packaging and cloth bag. Stylish and practical, ideal for retail and gifts.',
+    scenes: ['Flower Shop', 'Retail Packaging', 'Gift Bag', 'Event'],
+    materials: ['PU Leather', 'Fabric'],
+    specs: {
+      'Model': 'DXD9951',
+      'Size': '45*35cm',
+      'Material': 'PU Leather + Fabric',
+      'Style': 'As shown in picture',
       'MOQ': '3000 pcs'
     }
   }
