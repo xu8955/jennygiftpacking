@@ -447,6 +447,154 @@ const products = [
   },
 
   // ═══════════════════════════════════════
+  //  MINI FAVOR BAGS — DXD9940 Series
+  {
+    id: 'dxd-015',
+    name: 'DXD9940 Mini Favor Bag — Solid Color Collection',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9940/DXD9940_01.png',
+      'basket/DXD9940/DXD9940_02.png',
+      'basket/DXD9940/DXD9940_03.png',
+      'basket/DXD9940/DXD9940_05.png',
+      'basket/DXD9940/DXD9940_06.png',
+      'basket/DXD9940/DXD9940_07.png',
+      'basket/DXD9940/DXD9940_08.png'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags in solid rich colors. Set of multiple shades — perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with integrated curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9940',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Set of 5 colors',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '3000 pcs'
+    }
+  },
+
+  // ═══════════════════════════════════════
+  //  MINI FAVOR BAGS — DXD9941 Series
+  {
+    id: 'dxd-040',
+    name: 'DXD9941 Mini Favor Bag — Solid Color Collection',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9941/DXD9941_01.png',
+      'basket/DXD9941/DXD9941_02.png',
+      'basket/DXD9941/DXD9941_03.png',
+      'basket/DXD9941/DXD9941_04.png',
+      'basket/DXD9941/DXD9941_05.png',
+      'basket/DXD9941/DXD9941_06.png',
+      'basket/DXD9941/DXD9941_07.png'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags in solid rich colors. Set of multiple shades — perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with integrated curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9941',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Set of multiple colors',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '3000 pcs'
+    }
+  },
+
+  {
+    id: 'dxd-041',
+    name: 'DXD8800迷你号9*4.5*8CM+丝带',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD8800/DXD8800_01.png',
+      'basket/DXD8800/DXD8800_02.png',
+      'basket/DXD8800/DXD8800_03.png',
+      'basket/DXD8800/DXD8800_04.png',
+      'basket/DXD8800/DXD8800_05.png',
+      'basket/DXD8800/DXD8800_06.png',
+      'basket/DXD8800/DXD8800_07.png',
+      'basket/DXD8800/DXD8800_08.png',
+      'basket/DXD8800/DXD8800_09.png',
+      'basket/DXD8800/DXD8800_10.png',
+      'basket/DXD8800/DXD8800_11.png',
+      'basket/DXD8800/DXD8800_12.png'
+    ],
+    desc: 'DXD8800迷你号9*4.5*8CM+丝带',
+    scenes: ['Gift Packaging', 'Party Favor', 'Event'],
+    materials: ['PU Leather', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD8800',
+      'Size': '9*4.5*8CM',
+      'Decoration': 'With ribbon',
+      'MOQ': '3000 pcs'
+    }
+  },
+
+  {
+    id: 'dxd-042',
+    name: 'DXD9942皮质珍珠包包',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9942/DXD9942_01.png',
+      'basket/DXD9942/DXD9942_02.png',
+      'basket/DXD9942/DXD9942_03.png',
+      'basket/DXD9942/DXD9942_04.png',
+      'basket/DXD9942/DXD9942_05.png'
+    ],
+    desc: 'DXD9942皮质珍珠包包，产品尺寸如图',
+    scenes: ['Gift Packaging', 'Fashion', 'Event'],
+    materials: ['PU Leather', 'Pearl'],
+    specs: {
+      'Model': 'DXD9942',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-046',
+    name: 'DXD9952婚礼喜糖盒皮质袋',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9952/DXD9952_01.png',
+      'basket/DXD9952/DXD9952_02.png',
+      'basket/DXD9952/DXD9952_03.png',
+      'basket/DXD9952/DXD9952_04.png'
+    ],
+    desc: 'DXD9952婚礼喜糖盒皮质袋，产品尺寸如图',
+    scenes: ['Wedding', 'Gift Packaging', 'Event'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9952',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-048',
+    name: 'DXD9953结婚喜糖盒手提皮质袋',
+    category: 'gift-baskets',
+    images: [
+      'basket/DXD9953/DXD9953_01.png',
+      'basket/DXD9953/DXD9953_02.png',
+      'basket/DXD9953/DXD9953_03.png',
+      'basket/DXD9953/DXD9953_04.png',
+      'basket/DXD9953/DXD9953_05.png',
+      'basket/DXD9953/DXD9953_06.png',
+      'basket/DXD9953/DXD9953_07.png',
+      'basket/DXD9953/DXD9953_08.png'
+    ],
+    desc: 'DXD9953结婚喜糖盒手提皮质袋，产品尺寸如图',
+    scenes: ['Wedding', 'Gift Packaging', 'Event'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9953',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+
+  // ═══════════════════════════════════════
   //  DESKTOP SUPPLIES — DXD9910 Series
   // ═══════════════════════════════════════
   {
@@ -492,7 +640,7 @@ const products = [
   // ═══════════════════════════════════════
   {
     id: 'dxd-011',
-    name: 'DXD9911双层折叠皮革收纳盒',
+    name: 'DXD9911皮革收纳盒桌面收纳托盘',
     category: 'desktop-supplies',
     images: [
       'desktop-supplies/DXD9911/DXD9911_01.png',
@@ -509,12 +657,14 @@ const products = [
       'desktop-supplies/DXD9911/DXD9911_12.png',
       'desktop-supplies/DXD9911/DXD9911_13.png'
     ],
-    desc: 'Elegant desktop organizer with compact design. Perfect for office desk organization and accessories storage.',
+    desc: 'DXD9911皮革收纳盒桌面收纳托盘，展开尺寸：大号35x25cm，小号28x20cm；折叠后尺寸：大号17x15x6.5cm，小号14x12x6cm',
     scenes: ['Office', 'Desk Organization', 'Home Office'],
-    materials: ['PU Leather', 'Metal Accessories'],
+    materials: ['PU Leather'],
     specs: {
       'Model': 'DXD9911',
       'Material': 'PU Leather',
+      '展开尺寸': '大号35x25cm，小号28x20cm',
+      '折叠后尺寸': '大号17x15x6.5cm，小号14x12x6cm',
       'MOQ': '3000 pcs'
     }
   },
@@ -1189,18 +1339,515 @@ const products = [
     }
   },
   {
+    id: 'dxd-041',
+    name: 'DXD9943蝙蝠款锌合金钥匙扣挂件',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9943/01.png',
+      'desktop-supplies/DXD9943/02.png',
+      'desktop-supplies/DXD9943/03.png',
+      'desktop-supplies/DXD9943/04.png',
+      'desktop-supplies/DXD9943/05.png',
+      'desktop-supplies/DXD9943/06.png',
+      'desktop-supplies/DXD9943/07.png'
+    ],
+    desc: '蝙蝠款锌合金钥匙扣挂件，精致耐用。优质锌合金材质，光泽感强，不易褪色。用于钥匙扣、包挂、饰品挂件，适合礼品赠送或零售。',
+    scenes: ['Daily Use', 'Gift', 'Keychain', 'Retail', 'Accessories'],
+    materials: ['Zinc Alloy', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9943',
+      'Material': 'Zinc Alloy',
+      'Size': '如图',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-042',
+    name: 'DXD9944简约皮革收纳纸巾盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9944/DXD9944_01.png',
+      'desktop-supplies/DXD9944/DXD9944_02.png',
+      'desktop-supplies/DXD9944/DXD9944_03.png',
+      'desktop-supplies/DXD9944/DXD9944_04.png',
+      'desktop-supplies/DXD9944/DXD9944_05.png'
+    ],
+    desc: '简约皮革收纳纸巾盒，优质PU皮革，触感舒适。用于收纳纸巾、湿巾等日常用品，简约时尚，适合家居、办公、旅行携带。',
+    scenes: ['Home', 'Office', 'Travel', 'Daily Use', 'Gift'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9944',
+      'Material': 'PU Leather',
+      'Size': '如图',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-043',
+    name: 'DXD9945黑白千格鸟皮革收纳盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9945/DXD9945_01.png',
+      'desktop-supplies/DXD9945/DXD9945_02.png',
+      'desktop-supplies/DXD9945/DXD9945_03.png',
+      'desktop-supplies/DXD9945/DXD9945_04.png',
+      'desktop-supplies/DXD9945/DXD9945_07.png'
+    ],
+    desc: '黑白千格鸟皮革收纳盒，精致PU皮革，千鸟格纹时尚设计。用于收纳文具、化妆品、小物件等，摆在桌面既是收纳工具也是装饰品。',
+    scenes: ['Office', 'Home Office', 'Desk Organization', 'Gift', 'Study Room'],
+    materials: ['PU Leather', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9945',
+      'Material': 'PU Leather',
+      'Pattern': '黑白千鸟格',
+      'Size': '如图',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-044',
+    name: 'DXD9946心形皮革数据耳机蓝牙线收纳器',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9946/DXD9946_01.png',
+      'desktop-supplies/DXD9946/DXD9946_02.png'
+    ],
+    desc: '黑白千格鸟皮革收纳盒，精致PU皮革，千鸟格纹时尚设计。用于收纳文具、化妆品、小物件等，摆在桌面既是收纳工具也是装饰品。',
+    scenes: ['Office', 'Home Office', 'Desk Organization', 'Gift', 'Study Room'],
+    materials: ['PU Leather', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9946',
+      'Material': 'PU Leather',
+      'Pattern': '黑白千鸟格',
+      'Size': '如图',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-045',
+    name: 'DXD9947卡扣式皮革桌面纸巾盒',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9947/DXD9947_01.png',
+      'desktop-supplies/DXD9947/DXD9947_02.png',
+      'desktop-supplies/DXD9947/DXD9947_03.png',
+      'desktop-supplies/DXD9947/DXD9947_04.png'
+    ],
+    desc: '卡扣式皮革桌面纸巾盒，优质PU皮革，简约时尚。卡扣设计方便拆卸和补充纸巾，适用于家居、办公、旅行等场景。',
+    scenes: ['Home', 'Office', 'Travel', 'Daily Use', 'Gift'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9947',
+      'Material': 'PU Leather',
+      'Style': '卡扣式',
+      'Size': '如图',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-050',
+    name: 'DXD9954桌面茶几摆放皮革编织托盘',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9954/DXD9954_01.png',
+      'desktop-supplies/DXD9954/DXD9954_02.png',
+      'desktop-supplies/DXD9954/DXD9954_03.png',
+      'desktop-supplies/DXD9954/DXD9954_04.png'
+    ],
+    desc: 'DXD9954桌面茶几摆放皮革编织托盘，产品尺寸如图',
+    scenes: ['Home', 'Office', 'Desk Organization'],
+    materials: ['PU Leather', 'Woven'],
+    specs: {
+      'Model': 'DXD9954',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-051',
+    name: 'DXD9955卡通猫咪款玄关钥匙托盘',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9955/DXD9955_01.png',
+      'desktop-supplies/DXD9955/DXD9955_02.png',
+      'desktop-supplies/DXD9955/DXD9955_03.png',
+      'desktop-supplies/DXD9955/DXD9955_04.png'
+    ],
+    desc: 'DXD9955卡通猫咪款玄关钥匙托盘，产品尺寸20.5X32cm',
+    scenes: ['Hallway', 'Key Organization', 'Home Decor'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9955',
+      'Size': '20.5X32cm',
+      'Style': '卡通猫咪款',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-052',
+    name: 'DXD9956卡通青蛙款玄关钥匙托盘',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9956/DXD9956_01.png',
+      'desktop-supplies/DXD9956/DXD9956_02.png',
+      'desktop-supplies/DXD9956/DXD9956_03.png',
+      'desktop-supplies/DXD9956/DXD9956_04.png'
+    ],
+    desc: 'DXD9956卡通青蛙款玄关钥匙托盘，产品尺寸20.5X28cm',
+    scenes: ['Hallway', 'Key Organization', 'Home Decor'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9956',
+      'Size': '20.5X28cm',
+      'Style': '卡通青蛙款',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-053',
+    name: 'DXD9957餐厅皮革刀叉餐具袋',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9957/DXD9957_01.png',
+      'desktop-supplies/DXD9957/DXD9957_02.png',
+      'desktop-supplies/DXD9957/DXD9957_03.png',
+      'desktop-supplies/DXD9957/DXD9957_04.png',
+      'desktop-supplies/DXD9957/DXD9957_05.png',
+      'desktop-supplies/DXD9957/DXD9957_06.png'
+    ],
+    desc: 'DXD9957餐厅皮革刀叉餐具袋，产品尺寸9x22cm',
+    scenes: ['Restaurant', 'Dining', 'Table Setting'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9957',
+      'Size': '9x22cm',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-054',
+    name: 'DXD9958宠物收纳盘防水耐磨可折叠餐垫',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9958/DXD9958_01.png',
+      'desktop-supplies/DXD9958/DXD9958_02.png',
+      'desktop-supplies/DXD9958/DXD9958_03.png',
+      'desktop-supplies/DXD9958/DXD9958_04.png',
+      'desktop-supplies/DXD9958/DXD9958_05.png',
+      'desktop-supplies/DXD9958/DXD9958_06.png'
+    ],
+    desc: 'DXD9958宠物收纳盘防水耐磨可折叠餐垫，折叠后45/30cm x 26cm',
+    scenes: ['Pet Care', 'Dining', 'Travel'],
+    materials: ['PU Leather', 'Waterproof'],
+    specs: {
+      'Model': 'DXD9958',
+      'Size': '折叠后45/30cm x 26cm',
+      'Style': '可折叠防水',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-055',
+    name: 'DXD9959皮质相片钥匙扣',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9959/DXD9959_01.png',
+      'desktop-supplies/DXD9959/DXD9959_02.png',
+      'desktop-supplies/DXD9959/DXD9959_03.png',
+      'desktop-supplies/DXD9959/DXD9959_04.png',
+      'desktop-supplies/DXD9959/DXD9959_05.png',
+      'desktop-supplies/DXD9959/DXD9959_06.png',
+      'desktop-supplies/DXD9959/DXD9959_07.png',
+      'desktop-supplies/DXD9959/DXD9959_08.png'
+    ],
+    desc: 'DXD9959皮质相片钥匙扣，产品尺寸10.8x5.4cm',
+    scenes: ['Key Chain', 'Gift', 'Fashion'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9959',
+      'Size': '10.8x5.4cm',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-056',
+    name: 'DXD9905卡塔尔地图挂件饰品',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9905/DXD9905_01.png',
+      'desktop-supplies/DXD9905/DXD9905_02.png',
+      'desktop-supplies/DXD9905/DXD9905_03.png',
+      'desktop-supplies/DXD9905/DXD9905_04.png',
+      'desktop-supplies/DXD9905/DXD9905_05.png',
+      'desktop-supplies/DXD9905/DXD9905_06.png',
+      'desktop-supplies/DXD9905/DXD9905_07.png',
+      'desktop-supplies/DXD9905/DXD9905_08.png',
+      'desktop-supplies/DXD9905/DXD9905_09.png'
+    ],
+    desc: 'DXD9905卡塔尔地图挂件饰品，产品尺寸5.3x10cm，绳子长度14.2cm',
+    scenes: ['Gift', 'Fashion', 'Home Decor'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9905',
+      'Size': '5.3x10cm',
+      'Rope Length': '14.2cm',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-057',
+    name: 'DXD9961荔枝纹笔套',
+    category: 'desktop-supplies',
+    images: [
+      'desktop-supplies/DXD9961/DXD9961_01.png',
+      'desktop-supplies/DXD9961/DXD9961_02.png',
+      'desktop-supplies/DXD9961/DXD9961_03.png',
+      'desktop-supplies/DXD9961/DXD9961_04.png',
+      'desktop-supplies/DXD9961/DXD9961_05.png',
+      'desktop-supplies/DXD9961/DXD9961_06.png',
+      'desktop-supplies/DXD9961/DXD9961_07.png'
+    ],
+    desc: 'DXD9961荔枝纹笔套，产品尺寸如图',
+    scenes: ['Office', 'Stationery', 'Gift'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9961',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-009b',
+    name: 'DXD9909 Mini Favor Bag - Floral Scarf Collection',
+    category: 'leather-packaging',
+    images: [
+      'basket/DXD9909_01.jpg',
+      'basket/DXD9909_02.jpg',
+      'basket/DXD9909_03.jpg',
+      'basket/DXD9909_04.jpg',
+      'basket/DXD9909_05.jpg',
+      'basket/DXD9909_06.jpg',
+      'basket/DXD9909_07.jpg',
+      'basket/DXD9909_08.jpg',
+      'basket/DXD9909_10.jpg'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags with decorative silk ribbon. Set of multiple rich colors - blue, orange, yellow, white, and red. Perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9909',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Blue, Orange, Yellow, White, Red (Set of 5)',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-015b',
+    name: 'DXD9940 Mini Favor Bag - Solid Color Collection',
+    category: 'leather-packaging',
+    images: [
+      'basket/DXD9940/DXD9940_01.png',
+      'basket/DXD9940/DXD9940_02.png',
+      'basket/DXD9940/DXD9940_03.png',
+      'basket/DXD9940/DXD9940_05.png',
+      'basket/DXD9940/DXD9940_06.png',
+      'basket/DXD9940/DXD9940_07.png',
+      'basket/DXD9940/DXD9940_08.png'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags in solid rich colors. Set of multiple shades - perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with integrated curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9940',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Set of 5 colors',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-040b',
+    name: 'DXD9941 Mini Favor Bag - Solid Color Collection',
+    category: 'leather-packaging',
+    images: [
+      'basket/DXD9941/DXD9941_01.png',
+      'basket/DXD9941/DXD9941_02.png',
+      'basket/DXD9941/DXD9941_03.png',
+      'basket/DXD9941/DXD9941_04.png',
+      'basket/DXD9941/DXD9941_05.png',
+      'basket/DXD9941/DXD9941_06.png',
+      'basket/DXD9941/DXD9941_07.png'
+    ],
+    desc: 'Elegant miniature handbag-style favor bags in solid rich colors. Set of multiple shades - perfect for wedding favors, party gifts, bridal showers, and special events. Each bag features a structured silhouette with integrated curved handle and satin ribbon bow.',
+    scenes: ['Wedding Favor', 'Party Gift', 'Bridal Shower', 'Birthday Party', 'Corporate Event'],
+    materials: ['PU Leather (Textured)', 'Satin Ribbon'],
+    specs: {
+      'Model': 'DXD9941',
+      'Material': 'PU Leather, textured finish',
+      'Colors': 'Set of multiple colors',
+      'Handle': 'Integrated curved handle',
+      'Decoration': 'Satin ribbon bow',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-043',
+    name: 'DXD9942皮质珍珠包包',
+    category: 'leather-packaging',
+    images: [
+      'basket/DXD9942/DXD9942_01.png',
+      'basket/DXD9942/DXD9942_02.png',
+      'basket/DXD9942/DXD9942_03.png',
+      'basket/DXD9942/DXD9942_04.png',
+      'basket/DXD9942/DXD9942_05.png'
+    ],
+    desc: 'DXD9942皮质珍珠包包，产品尺寸如图',
+    scenes: ['Gift Packaging', 'Fashion', 'Event'],
+    materials: ['PU Leather', 'Pearl'],
+    specs: {
+      'Model': 'DXD9942',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-047',
+    name: 'DXD9952婚礼喜糖盒皮质袋',
+    category: 'leather-packaging',
+    images: [
+      'basket/DXD9952/DXD9952_01.png',
+      'basket/DXD9952/DXD9952_02.png',
+      'basket/DXD9952/DXD9952_03.png',
+      'basket/DXD9952/DXD9952_04.png'
+    ],
+    desc: 'DXD9952婚礼喜糖盒皮质袋，产品尺寸如图',
+    scenes: ['Wedding', 'Gift Packaging', 'Event'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9952',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'dxd-049',
+    name: 'DXD9953结婚喜糖盒手提皮质袋',
+    category: 'leather-packaging',
+    images: [
+      'basket/DXD9953/DXD9953_01.png',
+      'basket/DXD9953/DXD9953_02.png',
+      'basket/DXD9953/DXD9953_03.png',
+      'basket/DXD9953/DXD9953_04.png',
+      'basket/DXD9953/DXD9953_05.png',
+      'basket/DXD9953/DXD9953_06.png',
+      'basket/DXD9953/DXD9953_07.png',
+      'basket/DXD9953/DXD9953_08.png'
+    ],
+    desc: 'DXD9953结婚喜糖盒手提皮质袋，产品尺寸如图',
+    scenes: ['Wedding', 'Gift Packaging', 'Event'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9953',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
     id: 'outdoor-001',
-    name: 'Outdoor Collection - More Coming Soon',
+    name: 'DXD9949装饰花盆皮套客厅花束干花花瓶',
     category: 'outdoor',
     images: [
-      'outdoor/placeholder.jpg'
+      'outdoor/DXD9949/DXD9949_01.png',
+      'outdoor/DXD9949/DXD9949_02.png',
+      'outdoor/DXD9949/DXD9949_03.png',
+      'outdoor/DXD9949/DXD9949_04.png',
+      'outdoor/DXD9949/DXD9949_05.png',
+      'outdoor/DXD9949/DXD9949_06.png',
+      'outdoor/DXD9949/DXD9949_07.png',
+      'outdoor/DXD9949/DXD9949_08.png',
+      'outdoor/DXD9949/DXD9949_09.png',
+      'outdoor/DXD9949/DXD9949_10.png'
     ],
-    desc: '更多户外产品即将上线，敬请期待！',
-    scenes: ['Cycling', 'Hiking', 'Camping', 'Travel', 'Outdoor Sports'],
-    materials: ['PU Leather', 'Water-resistant Fabric'],
+    desc: 'Decorative flower pot leather cover, elegant texture suitable for living room, flower shop, and home decor.',
+    scenes: ['Living Room', 'Flower Shop', 'Home Decor', 'Gift Set'],
+    materials: ['PU Leather'],
     specs: {
-      'Category': 'Outdoor & Sports',
-      'Status': 'Coming Soon',
+      'Model': 'DXD9949',
+      'Material': 'PU Leather',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'outdoor-002',
+    name: 'DXD9950花束打包袋鲜花手提袋',
+    category: 'outdoor',
+    images: [
+      'outdoor/DXD9950/DXD9950_01.png',
+      'outdoor/DXD9950/DXD9950_02.png',
+      'outdoor/DXD9950/DXD9950_03.png',
+      'outdoor/DXD9950/DXD9950_04.png',
+      'outdoor/DXD9950/DXD9950_05.png',
+      'outdoor/DXD9950/DXD9950_06.png'
+    ],
+    desc: 'Flower bouquet packaging bag, perfect for flower hand-held carrying and floral gift presentations.',
+    scenes: ['Flower Shop', 'Gift Packaging', 'Bridal Bouquet', 'Event Decor'],
+    materials: ['PU Leather', 'Fabric'],
+    specs: {
+      'Model': 'DXD9950',
+      'Material': 'PU Leather + Fabric',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'outdoor-003',
+    name: 'DXD9951手提花袋花店包装布袋',
+    category: 'outdoor',
+    images: [
+      'outdoor/DXD9951/DXD9951_01.png',
+      'outdoor/DXD9951/DXD9951_02.png',
+      'outdoor/DXD9951/DXD9951_03.png',
+      'outdoor/DXD9951/DXD9951_04.png',
+      'outdoor/DXD9951/DXD9951_05.png'
+    ],
+    desc: 'Handheld flower bag for flower shop packaging and cloth bag. Stylish and practical.',
+    scenes: ['Flower Shop', 'Retail Packaging', 'Gift Bag', 'Event'],
+    materials: ['帆布'],
+    specs: {
+      'Model': 'DXD9951',
+      'Size': '45*35cm',
+      'Material': '帆布',
+      'Style': 'As shown in picture',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'outdoor-004',
+    name: 'DXD9960皮革多功能户外挂钩',
+    category: 'outdoor',
+    images: [
+      'outdoor/DXD9960/DXD9960_01.png',
+      'outdoor/DXD9960/DXD9960_02.png',
+      'outdoor/DXD9960/DXD9960_03.png',
+      'outdoor/DXD9960/DXD9960_04.png',
+      'outdoor/DXD9960/DXD9960_05.png',
+      'outdoor/DXD9960/DXD9960_06.png',
+      'outdoor/DXD9960/DXD9960_07.png',
+      'outdoor/DXD9960/DXD9960_08.png'
+    ],
+    desc: 'DXD9960皮革多功能户外挂钩，产品尺寸如图',
+    scenes: ['Outdoor', 'Travel', 'Camping'],
+    materials: ['PU Leather'],
+    specs: {
+      'Model': 'DXD9960',
+      'Style': 'As shown in picture',
       'MOQ': '3000 pcs'
     }
   }
