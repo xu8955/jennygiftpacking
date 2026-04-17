@@ -1428,8 +1428,9 @@ const products = [
     }
   },
   {
-    id: 'outdoor-001',
-    name: 'Decorative Flower Pot Leather Cover — DXD9949',
+        id: 'outdoor-001',
+    name: 'DXD9949装饰花盆皮套客厅花束干花花瓶',
+    category: 'outdoor', Leather Cover — DXD9949',
     category: 'outdoor',
     images: [
       'outdoor/DXD9949/DXD9949_01.png',
@@ -1455,7 +1456,8 @@ const products = [
   },
   {
     id: 'outdoor-002',
-    name: 'Flower Bouquet Packaging Bag — DXD9950',
+    name: 'DXD9950花束打包袋鲜花手提袋',
+    category: 'outdoor', — DXD9950',
     category: 'outdoor',
     images: [
       'outdoor/DXD9950/DXD9950_01.png',
@@ -1477,7 +1479,7 @@ const products = [
   },
   {
     id: 'outdoor-003',
-    name: 'Handheld Flower Bag — DXD9951',
+    name: 'DXD9951手提花袋花店包装布袋',
     category: 'outdoor',
     images: [
       'outdoor/DXD9951/DXD9951_01.png',
@@ -1488,11 +1490,11 @@ const products = [
     ],
     desc: 'Handheld flower bag for flower shop packaging and cloth bag. Stylish and practical, ideal for retail and gifts.',
     scenes: ['Flower Shop', 'Retail Packaging', 'Gift Bag', 'Event'],
-    materials: ['PU Leather', 'Fabric'],
+    materials: ['帆布'],
     specs: {
       'Model': 'DXD9951',
       'Size': '45*35cm',
-      'Material': 'PU Leather + Fabric',
+      'Material': '帆布',
       'Style': 'As shown in picture',
       'MOQ': '3000 pcs'
     }
