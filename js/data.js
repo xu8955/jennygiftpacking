@@ -1430,7 +1430,6 @@ const products = [
   {
         id: 'outdoor-001',
     name: 'DXD9949装饰花盆皮套客厅花束干花花瓶',
-    category: 'outdoor', Leather Cover — DXD9949',
     category: 'outdoor',
     images: [
       'outdoor/DXD9949/DXD9949_01.png',
@@ -1456,8 +1455,7 @@ const products = [
   },
   {
     id: 'outdoor-002',
-    name: 'DXD9950花束打包袋鲜花手提袋',
-    category: 'outdoor', — DXD9950',
+        name: 'DXD9950花束打包袋鲜花手提袋',
     category: 'outdoor',
     images: [
       'outdoor/DXD9950/DXD9950_01.png',
