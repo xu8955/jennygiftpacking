@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Debug — Main Site JS Test</title>
+  <style>
+    body { font-family: Arial; padding: 30px; background: #fafafa; }
+    .ok { background: #d4edda; color: #155724; padding: 12px; border-radius: 6px; margin-bottom: 16px; }
+    .err { background: #f8d7da; color: #721c24; padding: 12px; border-radius: 6px; margin-bottom: 16px; }
+    .warn { background: #fff3cd; color: #856404; padding: 12px; border-radius: 6px; margin-bottom: 16px; }
+    h2 { color: #333; margin-bottom: 20px; }
+    .product-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-top: 20px; }
+    .product-card { background: white; border-radius: 8px; padding: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+  </style>
+</head>
+<body>
+
+<h2>Debug: Main Site JS Loading</h2>
+<div id="log"></div>
+<div class="product-list" id="product-list"></div>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  function log(msg, type) {
+    const div = document.createElement('div');
+    div.className = type;
+    div.textContent = msg;
+    document.getElementById('log').appendChild(div);
+    console.log('[' + type.toUpperCase() + ']', msg);
+  }
+
+  try {
+    log('products defined: ' + typeof products, typeof products !== 'undefined' ? 'ok' : 'err');
+    log('products.length: ' + (typeof products !== 'undefined' ? products.length : 'N/A'), 'warn');
+    log('renderProducts defined: ' + typeof renderProducts, typeof renderProducts !== 'undefined' ? 'ok' : 'err');
+    log('openProductModal defined: ' + typeof openProductModal, 'ok');
+    log('currentFilter defined: ' + typeof currentFilter, typeof currentFilter !== 'undefined' ? 'ok' : 'err');
+    log('currentLang defined: ' + typeof currentLang, 'ok');
+
+    if (typeof products !== 'undefined' && products.length > 0) {
+      log('Rendering ' + products.length + ' products...', 'ok');
+      const list = document.getElementById('product-list');
+      products.forEach(function(p) {
+        var card = document.createElement('div');
+        card.className = 'product-card';
+        card.innerHTML = '<strong>' + p.id + '</strong><br>' + p.name;
+        card.onclick = function() { openProductModal(p.id); };
+        list.appendChild(card);
+      });
+      log('Render complete!', 'ok');
+    } else {
+      log('No products to render!', 'err');
+    }
+  } catch(e) {
+    log('ERROR: ' + e.message + '\n' + e.stack, 'err');
+  }
+</script>
+
+</body>
+</html>

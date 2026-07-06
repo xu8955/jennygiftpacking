@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DXD9905 Gallery Preview</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #fafafa;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c1810;
+      margin-bottom: 30px;
+      font-size: 1.5rem;
+    }
+
+    /* ── 完整产品展示区 ── */
+    .product-showcase {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+
+    /* 左侧：图片展示 */
+    .gallery-section {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .main-image-wrap {
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #f5f0eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 420px;
+    }
+
+    .main-image-wrap img {
+      width: 100%;
+      height: 420px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+
+    /* ← → 导航按钮 */
+    .gallery-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(44,24,16,0.7);
+      color: white;
+      border: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+    .gallery-nav:hover { background: rgba(44,24,16,0.9); }
+    .gallery-nav.prev { left: 10px; }
+    .gallery-nav.next { right: 10px; }
+
+    /* 图片计数器 */
+    .img-counter {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      background: rgba(0,0,0,0.5);
+      color: white;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+    }
+
+    /* ── 缩略图条 ── */
+    .thumbnail-strip {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+    }
+    .thumbnail-strip::-webkit-scrollbar { height: 4px; }
+    .thumbnail-strip::-webkit-scrollbar-thumb { background: #ccc; border-radius: 2px; }
+
+    .thumb {
+      flex-shrink: 0;
+      width: 70px;
+      height: 70px;
+      border-radius: 8px;
+      overflow: hidden;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: border-color 0.2s, transform 0.2s;
+      background: #f0ebe6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .thumb:hover { transform: scale(1.05); border-color: #8b4513; }
+    .thumb.active { border-color: #8b4513; }
+    .thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* ── 新增：单图顺序展示（不堆叠） ── */
+    .single-image-stack {
+      margin-top: 20px;
+      border-top: 1px solid #eee;
+      padding-top: 20px;
+    }
+    .single-image-stack h3 {
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .stack-item {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+    .stack-item img {
+      width: 100%;
+      max-height: 500px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: #f5f0eb;
+      cursor: pointer;
+      transition: box-shadow 0.2s;
+    }
+    .stack-item img:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+    .stack-caption {
+      font-size: 0.75rem;
+      color: #aaa;
+      text-align: center;
+    }
+
+    /* ── 右侧：产品信息 ── */
+    .product-info {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .product-info h2 {
+      font-size: 1.4rem;
+      color: #2c1810;
+    }
+    .product-info .desc {
+      color: #555;
+      line-height: 1.7;
+      font-size: 0.95rem;
+    }
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .tag {
+      background: #f0ebe6;
+      color: #8b4513;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+    }
+    .spec-table {
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    .spec-table td { padding: 6px 0; border-bottom: 1px solid #eee; }
+    .spec-table td:first-child { color: #888; width: 100px; }
+
+    /* ── 点击看大图弹窗 ── */
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.9);
+      z-index: 999;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .lightbox.open { display: flex; }
+    .lightbox img {
+      max-width: 90vw;
+      max-height: 85vh;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 24px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 2rem;
+      cursor: pointer;
+    }
+    .lightbox-nav {
+      background: rgba(255,255,255,0.15);
+      color: white;
+      border: none;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    .lightbox-nav:hover { background: rgba(255,255,255,0.3); }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>🎨 Gallery Layout Preview — DXD9905</h1>
+
+  <div class="product-showcase">
+
+    <!-- 左侧：图片展示 -->
+    <div class="gallery-section">
+      <div class="main-image-wrap">
+        <button class="gallery-nav prev" onclick="prevImg()">&#8249;</button>
+        <img id="mainImg" src="assets/basket/DXD9905/DXD9905_01.jpg" alt="Main" onclick="openLightbox(currentIdx)">
+        <button class="gallery-nav next" onclick="nextImg()">&#8250;</button>
+        <span class="img-counter" id="counter">1 / 9</span>
+      </div>
+
+      <!-- 缩略图 -->
+      <div class="thumbnail-strip" id="thumbs"></div>
+
+      <!-- ✅ 新增：单图顺序展示（下方空白区域） -->
+      <div class="single-image-stack">
+        <h3>📷 All Product Views</h3>
+        <div id="imageStack"></div>
+      </div>
+    </div>
+
+    <!-- 右侧：产品信息 -->
+    <div class="product-info">
+      <h2>DXD9905 Mini Favor Bag — Elegant Collection</h2>
+      <div class="tag-row">
+        <span class="tag">🎁 Wedding Favor</span>
+        <span class="tag">🎉 Party Gift</span>
+        <span class="tag">💐 Bridal Shower</span>
+        <span class="tag">🎂 Birthday Party</span>
+        <span class="tag">🏢 Corporate Event</span>
+      </div>
+      <p class="desc">
+        Elegant miniature handbag-style favor bags with decorative silk ribbon. Set of vibrant colors — lavender, orange, light blue, white, and red. Each bag features a structured silhouette with curved wooden-look handle and satin ribbon bow. Perfect for wedding favors, party gifts, bridal showers, and special events.
+      </p>
+      <table class="spec-table">
+        <tr><td>Model</td><td>DXD9905</td></tr>
+        <tr><td>Material</td><td>PU Leather, textured finish</td></tr>
+        <tr><td>Colors</td><td>Lavender, Orange, Light Blue, White, Red</td></tr>
+        <tr><td>Handle</td><td>Curved wooden-look handle</td></tr>
+        <tr><td>Decoration</td><td>Satin ribbon bow</td></tr>
+        <tr><td>MOQ</td><td>100 pcs</td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- 弹窗 -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+  <button class="lightbox-nav" onclick="event.stopPropagation(); prevImg()">&#8249;</button>
+  <img id="lightboxImg" src="" alt="" onclick="event.stopPropagation()">
+  <button class="lightbox-nav" onclick="event.stopPropagation(); nextImg()">&#8250;</button>
+</div>
+
+<script>
+  const images = Array.from({length: 9}, (_, i) => `assets/basket/DXD9905/DXD9905_0${i+1}.jpg`);
+  let currentIdx = 0;
+
+  const mainImg = document.getElementById('mainImg');
+  const counter = document.getElementById('counter');
+  const thumbsEl = document.getElementById('thumbs');
+  const stackEl = document.getElementById('imageStack');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightboxImg');
+
+  // 渲染缩略图
+  images.forEach((src, i) => {
+    const th = document.createElement('div');
+    th.className = 'thumb' + (i === 0 ? ' active' : '');
+    th.innerHTML = `<img src="${src}" alt="View ${i+1}">`;
+    th.onclick = () => setImg(i);
+    thumbsEl.appendChild(th);
+  });
+
+  // 渲染单图顺序展示
+  images.forEach((src, i) => {
+    const item = document.createElement('div');
+    item.className = 'stack-item';
+    item.innerHTML = `
+      <img src="${src}" alt="View ${i+1}" onclick="setImg(${i}); openLightbox(${i})">
+      <div class="stack-caption">View ${i+1} — ${images.length}</div>`;
+    stackEl.appendChild(item);
+  });
+
+  function setImg(i) {
+    currentIdx = i;
+    mainImg.src = images[i];
+    counter.textContent = `${i+1} / ${images.length}`;
+    document.querySelectorAll('.thumb').forEach((t, j) => {
+      t.classList.toggle('active', j === i);
+    });
+  }
+
+  function prevImg() { setImg((currentIdx - 1 + images.length) % images.length); }
+  function nextImg() { setImg((currentIdx + 1) % images.length); }
+
+  function openLightbox(i) {
+    setImg(i);
+    lightboxImg.src = images[currentIdx];
+    lightbox.classList.add('open');
+  }
+  function closeLightbox() { lightbox.classList.remove('open'); }
+
+  document.addEventListener('keydown', e => {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'ArrowLeft') prevImg();
+    if (e.key === 'ArrowRight') nextImg();
+    if (e.key === 'Escape') closeLightbox();
+  });
+</script>
+
+</body>
+</html>

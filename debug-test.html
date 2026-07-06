@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Site — Debug Test</title>
+  <style>
+    body { font-family: Arial; padding: 40px; background: #fafafa; }
+    .error { background: #fee; color: #c00; padding: 10px; border-radius: 6px; margin-bottom: 16px; }
+    .info { background: #eef; color: #00c; padding: 10px; border-radius: 6px; margin-bottom: 16px; }
+    h2 { color: #333; margin-bottom: 20px; }
+    .product-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+    .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.08); padding: 12px; cursor: pointer; }
+    .card img { width: 100%; height: 160px; object-fit: cover; border-radius: 6px; background: #f0ebe6; }
+    .card h3 { font-size: 0.9rem; color: #2c1810; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+<h2>Debug: Product Loader</h2>
+<div id="info" class="info">Loading...</div>
+<div id="error" class="error" style="display:none;"></div>
+<div class="product-list" id="product-list"></div>
+
+<script src="js/data.js"></script>
+<script>
+  // Debug info
+  const infoEl = document.getElementById('info');
+  const errorEl = document.getElementById('error');
+  const listEl = document.getElementById('product-list');
+
+  try {
+    infoEl.textContent = 'data.js loaded. Checking products...';
+
+    if (typeof products === 'undefined') {
+      throw new Error('products is NOT defined after loading data.js');
+    }
+    if (!Array.isArray(products)) {
+      throw new Error('products is not an array: ' + typeof products);
+    }
+    if (products.length === 0) {
+      throw new Error('products array is EMPTY');
+    }
+
+    infoEl.textContent = 'Found ' + products.length + ' products in data.js';
+    infoEl.className = 'info';
+    errorEl.style.display = 'none';
+
+    console.log('Products:', products);
+    console.log('products.length:', products.length);
+
+    products.forEach(p => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = '<img src="' + ASSET_BASE + '/' + p.images[0] + '" alt="' + p.name + '"><h3>' + p.name + '</h3>';
+      card.onclick = () => alert('Clicked: ' + p.name);
+      listEl.appendChild(card);
+    });
+
+    infoEl.textContent = 'Rendered ' + products.length + ' product cards';
+
+  } catch (e) {
+    errorEl.textContent = 'ERROR: ' + e.message;
+    errorEl.style.display = 'block';
+    console.error('Product loading error:', e);
+  }
+</script>
+
+</body>
+</html>

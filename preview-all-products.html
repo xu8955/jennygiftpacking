@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preview All Products — New Layout</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #fafafa; margin: 0; padding: 0; }
+    h1 { text-align: center; padding: 30px 20px 10px; color: #2c1810; font-size: 1.4rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; max-width: 1100px; margin: 0 auto; padding: 20px; }
+    .card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.07); cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 6px 20px rgba(0,0,0,0.13); }
+    .card-img { height: 180px; background: #f5f0eb; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+    .card-img img { width: 100%; height: 100%; object-fit: cover; }
+    .card-body { padding: 12px 14px; }
+    .card-cat { font-size: 0.7rem; color: #8b4513; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700; margin-bottom: 4px; }
+    .card-name { font-size: 0.88rem; font-weight: 700; color: #2c1810; }
+
+    /* Modal */
+    #modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.55); z-index: 1000; align-items: center; justify-content: center; padding: 20px; }
+    #modal.open { display: flex; }
+    #modal-inner { background: white; border-radius: 14px; max-width: 980px; width: 100%; max-height: 90vh; overflow-y: auto; }
+    #modal-inner::-webkit-scrollbar { width: 6px; }
+    #modal-inner::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+
+    /* Detail layout */
+    .detail-hero { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; padding: 24px; margin-bottom: 20px; }
+    .detail-gallery { display: flex; flex-direction: column; gap: 10px; }
+    .gallery-main { position: relative; border-radius: 10px; overflow: hidden; background: #f5f0eb; min-height: 340px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .gallery-main img { width: 100%; height: 340px; object-fit: contain; }
+    .gallery-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(44,24,16,0.7); color: white; border: none; width: 36px; height: 36px; border-radius: 50%; font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.2s; }
+    .gallery-btn:hover { background: rgba(44,24,16,0.95); }
+    .gallery-btn.prev { left: 8px; }
+    .gallery-btn.next { right: 8px; }
+    .gallery-counter { position: absolute; bottom: 10px; right: 12px; background: rgba(0,0,0,0.45); color: white; padding: 3px 10px; border-radius: 20px; font-size: 0.72rem; }
+    .gallery-thumbs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; }
+    .gallery-thumbs::-webkit-scrollbar { height: 3px; }
+    .gallery-thumbs::-webkit-scrollbar-thumb { background: #ccc; border-radius: 2px; }
+    .gallery-thumb { flex-shrink: 0; width: 56px; height: 56px; border-radius: 6px; overflow: hidden; cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s; background: #f0ebe6; display: flex; align-items: center; justify-content: center; }
+    .gallery-thumb:hover { border-color: #8b4513; }
+    .gallery-thumb.active { border-color: #8b4513; }
+    .gallery-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* NEW: Stacked image display below thumbs */
+    .gallery-stack { margin-top: 8px; border-top: 1px solid #eee; padding-top: 14px; }
+    .stack-label { font-size: 0.72rem; color: #999; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+    .stack-item { margin-bottom: 12px; cursor: pointer; border-radius: 8px; overflow: hidden; background: #f5f0eb; transition: box-shadow 0.2s; }
+    .stack-item:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.12); }
+    .stack-item img { width: 100%; max-height: 400px; object-fit: contain; display: block; }
+    .stack-caption { text-align: center; font-size: 0.68rem; color: #bbb; padding: 4px 0 6px; }
+
+    .detail-info { display: flex; flex-direction: column; gap: 14px; padding: 24px 24px 24px 0; }
+    .detail-cat { font-size: 0.75rem; color: #8b4513; text-transform: uppercase; letter-spacing: 0.8px; font-weight: 700; }
+    .detail-title { font-size: 1.45rem; font-weight: 700; color: #2c1810; margin: 0; }
+    .detail-desc { color: #666; line-height: 1.8; font-size: 0.88rem; margin: 0; }
+    .detail-scenes { display: flex; gap: 6px; flex-wrap: wrap; }
+    .scene-tag { background: #f0ebe6; color: #8b4513; padding: 3px 10px; border-radius: 20px; font-size: 0.75rem; }
+    .detail-materials { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .mat-label { font-size: 0.78rem; color: #888; }
+    .mat-tag { background: #eee; color: #555; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; }
+    .btn-inquiry { display: inline-block; background: #2c1810; color: white; padding: 10px 24px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: 600; text-align: center; transition: background 0.2s; margin-top: 4px; width: fit-content; }
+    .btn-inquiry:hover { background: #4a2c1a; }
+    .detail-specs { border-top: 1px solid #eee; padding-top: 16px; margin-top: 4px; }
+    .detail-specs h4 { font-size: 0.88rem; color: #2c1810; margin: 0 0 10px; }
+    .spec-table { border-collapse: collapse; width: 100%; font-size: 0.82rem; }
+    .spec-table td { padding: 5px 0; border-bottom: 1px solid #f0f0f0; }
+    .spec-table td:first-child { color: #888; width: 100px; }
+
+    /* Lightbox */
+    #lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.92); z-index: 2000; align-items: center; justify-content: center; flex-direction: column; gap: 12px; }
+    #lightbox.open { display: flex; }
+    #lightbox img { max-width: 90vw; max-height: 80vh; object-fit: contain; border-radius: 8px; }
+    .lb-close { position: absolute; top: 14px; right: 20px; background: none; border: none; color: white; font-size: 2.2rem; cursor: pointer; line-height: 1; }
+    .lb-nav { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.15); color: white; border: none; width: 48px; height: 48px; border-radius: 50%; font-size: 1.4rem; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .lb-nav:hover { background: rgba(255,255,255,0.3); }
+    .lb-nav.prev { left: 14px; }
+    .lb-nav.next { right: 14px; }
+    .lb-counter { color: rgba(255,255,255,0.7); font-size: 0.82rem; }
+    .lb-caption { color: rgba(255,255,255,0.45); font-size: 0.7rem; }
+
+    .close-btn { position: absolute; top: 14px; right: 16px; background: none; border: none; font-size: 1.6rem; cursor: pointer; color: #888; line-height: 1; padding: 4px; }
+  </style>
+</head>
+<body>
+
+<h1>All Products — New Gallery Layout</h1>
+<div class="grid" id="productGrid"></div>
+
+<!-- Modal -->
+<div id="modal" onclick="if(event.target===this)closeModal()">
+  <div id="modal-inner" onclick="event.stopPropagation()">
+    <button class="close-btn" onclick="closeModal()">&#215;</button>
+    <div class="detail-hero" id="modalContent"></div>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" onclick="closeLightbox()">
+  <button class="lb-close" onclick="closeLightbox()">&#215;</button>
+  <button class="lb-nav prev" onclick="LB_EVENT.stopPropagation();lbPrev()">&#8249;</button>
+  <img id="lbImg" src="" alt="" onclick="LB_EVENT.stopPropagation()">
+  <button class="lb-nav next" onclick="LB_EVENT.stopPropagation();lbNext()">&#8250;</button>
+  <div class="lb-counter" id="lbCounter"></div>
+  <div class="lb-caption" id="lbCaption"></div>
+</div>
+
+<script src="js/data.js"></script>
+<script>
+(function() {
+  const grid = document.getElementById('productGrid');
+  const modal = document.getElementById('modal');
+  const modalContent = document.getElementById('modalContent');
+  const lightbox = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lbImg');
+  const lbCounter = document.getElementById('lbCounter');
+  const lbCaption = document.getElementById('lbCaption');
+
+  let lbImages = [];
+  let lbIdx = 0;
+
+  // Render product cards
+  products.forEach(function(p) {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.onclick = function() { openModal(p.id); };
+    card.innerHTML =
+      '<div class="card-img"><img src="' + ASSET_BASE + '/' + p.images[0] + '" alt="' + p.name + '" onerror="this.style.display=\'none\'"></div>' +
+      '<div class="card-body">' +
+        '<div class="card-cat">' + p.category + '</div>' +
+        '<div class="card-name">' + p.name + '</div>' +
+      '</div>';
+    grid.appendChild(card);
+  });
+
+  // Open modal
+  window.openModal = function(id) {
+    var p = null;
+    for (var i = 0; i < products.length; i++) {
+      if (products[i].id === id) { p = products[i]; break; }
+    }
+    if (!p) return;
+    var total = p.images.length;
+
+    modalContent.innerHTML =
+      '<div class="detail-gallery">' +
+        '<div class="gallery-main" id="galleryMain">' +
+          '<img id="galleryImg" src="' + ASSET_BASE + '/' + p.images[0] + '" alt="' + p.name + '">' +
+          (total > 1 ?
+            '<button class="gallery-btn prev" onclick="event.stopPropagation();galleryPrev(\'' + p.id + '\')">&#8249;</button>' +
+            '<button class="gallery-btn next" onclick="event.stopPropagation();galleryNext(\'' + p.id + '\')">&#8250;</button>' +
+            '<div class="gallery-counter" id="galleryCounter">1 / ' + total + '</div>'
+          : '') +
+        '</div>' +
+        (total > 1 ?
+          '<div class="gallery-thumbs" id="galleryThumbs">' +
+            p.images.map(function(img, i) {
+              return '<div class="gallery-thumb' + (i===0?' active':'') + '" onclick="galleryGoTo(\'' + p.id + '\',' + i + ')">' +
+                '<img src="' + ASSET_BASE + '/' + img + '" alt="View ' + (i+1) + '"></div>';
+            }).join('') +
+          '</div>'
+        : '') +
+        // NEW: Stacked image display
+        '<div class="gallery-stack">' +
+          '<div class="stack-label">All Product Views</div>' +
+          p.images.map(function(img, i) {
+            return '<div class="stack-item" onclick="openLightbox(' + i + ', \'' + p.id + '\')">' +
+              '<img src="' + ASSET_BASE + '/' + img + '" alt="View ' + (i+1) + '">' +
+              '<div class="stack-caption">View ' + (i+1) + ' — ' + total + '</div>' +
+            '</div>';
+          }).join('') +
+        '</div>' +
+      '</div>' +
+      '<div class="detail-info">' +
+        '<div class="detail-cat">' + p.category + '</div>' +
+        '<h2 class="detail-title">' + p.name + '</h2>' +
+        '<p class="detail-desc">' + p.desc + '</p>' +
+        '<div class="detail-scenes">' +
+          p.scenes.map(function(s) { return '<span class="scene-tag">' + s + '</span>'; }).join('') +
+        '</div>' +
+        '<div class="detail-materials">' +
+          '<span class="mat-label">Materials:</span>' +
+          p.materials.map(function(m) { return '<span class="mat-tag">' + m + '</span>'; }).join('') +
+        '</div>' +
+        '<a href="#contact" class="btn-inquiry" onclick="closeModal()">Get Quote</a>' +
+        '<div class="detail-specs">' +
+          '<h4>Specifications</h4>' +
+          '<table class="spec-table">' +
+            Object.keys(p.specs).map(function(k) {
+              return '<tr><td>' + k + '</td><td>' + p.specs[k] + '</td></tr>';
+            }).join('') +
+          '</table>' +
+        '</div>' +
+      '</div>';
+
+    window._currentProductId = id;
+    window._currentImgIndex = 0;
+    lbImages = p.images;
+
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  };
+
+  window.galleryGoTo = function(productId, index) {
+    var p = null;
+    for (var i = 0; i < products.length; i++) {
+      if (products[i].id === productId) { p = products[i]; break; }
+    }
+    if (!p) return;
+    window._currentImgIndex = index;
+    document.getElementById('galleryImg').src = ASSET_BASE + '/' + p.images[index];
+    document.getElementById('galleryCounter').textContent = (index+1) + ' / ' + p.images.length;
+    var thumbs = document.querySelectorAll('.gallery-thumb');
+    for (var j = 0; j < thumbs.length; j++) {
+      thumbs[j].classList.toggle('active', j === index);
+    }
+  };
+
+  window.galleryPrev = function(productId) {
+    var p = null;
+    for (var i = 0; i < products.length; i++) {
+      if (products[i].id === productId) { p = products[i]; break; }
+    }
+    if (!p) return;
+    var newIdx = (window._currentImgIndex - 1 + p.images.length) % p.images.length;
+    galleryGoTo(productId, newIdx);
+  };
+
+  window.galleryNext = function(productId) {
+    var p = null;
+    for (var i = 0; i < products.length; i++) {
+      if (products[i].id === productId) { p = products[i]; break; }
+    }
+    if (!p) return;
+    var newIdx = (window._currentImgIndex + 1) % p.images.length;
+    galleryGoTo(productId, newIdx);
+  };
+
+  window.closeModal = function() {
+    modal.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+
+  // Lightbox
+  window.openLightbox = function(index, productId) {
+    if (productId) {
+      var p = null;
+      for (var i = 0; i < products.length; i++) {
+        if (products[i].id === productId) { p = products[i]; break; }
+      }
+      if (p) lbImages = p.images;
+    }
+    lbIdx = index;
+    updateLightbox();
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  };
+
+  function updateLightbox() {
+    lbImg.src = ASSET_BASE + '/' + lbImages[lbIdx];
+    lbCounter.textContent = (lbIdx+1) + ' / ' + lbImages.length;
+    lbCaption.textContent = 'View ' + (lbIdx+1);
+  }
+
+  window.lbPrev = function() {
+    lbIdx = (lbIdx - 1 + lbImages.length) % lbImages.length;
+    updateLightbox();
+  };
+
+  window.lbNext = function() {
+    lbIdx = (lbIdx + 1) % lbImages.length;
+    updateLightbox();
+  };
+
+  window.closeLightbox = function() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  };
+
+  document.addEventListener('keydown', function(e) {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'ArrowLeft') lbPrev();
+    if (e.key === 'ArrowRight') lbNext();
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>
+
+</body>
+</html>
