@@ -295,6 +295,60 @@ const products = [
     }
   },
 
+  // --- Wine Baskets: DXD9962 / DXD9963 (Net-pattern / Fruit-handle handbag) ---
+  {
+    id: 'lp-008',
+    name: 'DXD9962 Leather Net & Mesh Wine Carrier',
+    category: 'wine-baskets',
+    images: [
+      'red-wine-packaging/DXD9962/02.jpg',
+      'red-wine-packaging/DXD9962/03.jpg',
+      'red-wine-packaging/DXD9962/04.jpg',
+      'red-wine-packaging/DXD9962/05.jpg',
+      'red-wine-packaging/DXD9962/06.jpg',
+      'red-wine-packaging/DXD9962/07.jpg',
+      'red-wine-packaging/DXD9962/08.jpg'
+    ],
+    desc: "Leather wine carrier featuring a net-detail, threaded-mesh exterior over a croc-embossed leather shell. The crossover mesh pattern offers breathability and visual texture while keeping the bottle secure. Single-bottle carrier sized to a standard 750ml format. A stylish alternative to solid leather carriers for gift packaging and retail.",
+    scenes: ['Wine Gift', 'Retail Display', 'Holiday Gift Set', 'Wedding Favor', 'Corporate Gifting'],
+    materials: ['PU Leather (Croc Embossed)', 'Mesh Fabric', 'Threaded Net Detail', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9962',
+      'Material': 'PU Leather with croc-emboss + mesh/threaded overlay',
+      'Size': 'As pictured (single bottle)',
+      'Capacity': '1 × 750ml bottle',
+      'Style': 'Net-pattern body with threaded-mesh wrap',
+      'Colors': 'Brown',
+      'Logo': 'Deboss / Hot-stamp',
+      'MOQ': '3000 pcs'
+    }
+  },
+  {
+    id: 'lp-009',
+    name: 'DXD9963 Leather Net & Mesh Fruit / Wine Handbag',
+    category: 'wine-baskets',
+    images: [
+      'red-wine-packaging/DXD9963/03.jpg',
+      'red-wine-packaging/DXD9963/04.jpg',
+      'red-wine-packaging/DXD9963/05.jpg',
+      'red-wine-packaging/DXD9963/06.jpg'
+    ],
+    desc: "Leather handbag-style carrier pairing a croc-embossed shell with a net-and-threaded-mesh wrap. Designed to hold a single bottle or a small fruit/gift arrangement — a versatile two-in-one gifting solution. Mesh overlay provides breathability for fresh produce and visual texture for premium wine packaging.",
+    scenes: ['Wine Gift', 'Fruit Gift Box', 'Holiday Gift Set', 'Special Occasion', 'Retail Display'],
+    materials: ['PU Leather (Croc Embossed)', 'Mesh Fabric', 'Threaded Net Detail', 'Metal Hardware'],
+    specs: {
+      'Model': 'DXD9963',
+      'Material': 'PU Leather with croc-emboss + mesh/threaded overlay',
+      'Size': 'As pictured (single bottle / fruit arrangement)',
+      'Capacity': '1 × 750ml bottle OR fruit arrangement',
+      'Style': 'Handbag form with net-pattern + threaded-mesh wrap',
+      'Colors': 'Brown',
+      'Logo': 'Deboss / Hot-stamp',
+      'MOQ': '3000 pcs'
+    }
+  },
+
+
   // ═══════════════════════════════════════
   //  CROC TOTE BAGS — Multiple Colors
   // ═══════════════════════════════════════
